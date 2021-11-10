@@ -1,23 +1,20 @@
 <template>
   <div>
-    <b-container fluid>
-      <iframe
-        id="JotFormIFrame-213115758965060"
-        title="TheHeist"
-        onload="window.parent.scrollTo(0,0)"
-        allowtransparency="true"
-        allowfullscreen="true"
-        allow="geolocation; microphone; camera"
-        src="https://form.jotform.com/213115758965060"
-        frameborder="0"
-        style="min-width: 100%; height: 539px; border: none"
-        scrolling="no"
-      >
-      </iframe>
-    </b-container>
+    <iframe
+      id="JotFormIFrame-213115758965060"
+      title="TheHeist"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allowfullscreen="true"
+      allow="geolocation; microphone; camera"
+      src="https://form.jotform.com/213115758965060"
+      frameborder="0"
+      style="min-width: 100%; height: 539px; border: none"
+      scrolling="no"
+    >
+    </iframe>
   </div>
 </template>
-
 <script type="text/javascript">
 var ifr = document.getElementById("JotFormIFrame-213115758965060");
 if (ifr) {
@@ -131,9 +128,3 @@ if (window.addEventListener) {
   window.attachEvent("onmessage", handleIFrameMessage);
 }
 </script>
-
-<style scoped>
-.image-col {
-  height: 100vh;
-}
-</style>
