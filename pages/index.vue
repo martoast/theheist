@@ -22,16 +22,17 @@
     <div class="row">
       <div class="col- offset-md-8">
         <div class="d-flex flex-column justify-content-end image-size">
-          <div class="p-4 mb-5">
-            <p class="main-msg">
+          <div class="msg-container">
+            <p class="main-msg text-white">
               A limited Collection of unique NFT tokens, that will allow you to
               dive into a story of coquette mischief and new identities.
             </p>
-            <div class="py-3">
+            <div>
               <h3 class="card-btn text-white">Welcome To The Heist</h3>
               <b-button
                 pill
-                style="background-color: white; color: black; width: 300px"
+                class="enter-btn"
+                variant="outline-light"
                 to="/landing"
                 >Enter Here</b-button
               >
@@ -90,36 +91,6 @@ export default {};
   z-index: 100000;
 }
 
-.main-logo {
-  font-family: "komik";
-  font-size: 48px;
-}
-
-.main-msg {
-  font-family: "Champange";
-  font-size: 24px;
-}
-
-.card-btn {
-  font-family: "Abys";
-  font-size: 36px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 4px;
-  right: 16px;
-  z-index: 100000;
-}
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 16px;
-  z-index: 100000;
-}
 .image-size {
   height: calc(100vh - 56px);
 }
@@ -130,11 +101,82 @@ export default {};
     background-image: url("/landingmobile.jpg");
     background-size: cover;
   }
+
+  .msg-container {
+    position: absolute;
+    padding: 3rem;
+    top: 4rem;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+
+  .main-msg {
+    font-family: "Champange";
+    font-size: 14px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 26px;
+  }
+
+  .enter-btn {
+    width: 200px;
+  }
 }
 @media (min-width: 380px) {
   body {
     background-image: url("/landingmain.jpg");
     background-size: cover;
+  }
+
+  .msg-container {
+    position: absolute;
+    padding: 3rem;
+    bottom: 4rem;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 4px;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+  .main-msg {
+    font-family: "Champange";
+    font-size: 24px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 36px;
+  }
+
+  .enter-btn {
+    width: 300px;
   }
 }
 </style>
