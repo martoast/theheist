@@ -5,9 +5,15 @@
         <div class="d-flex">
           <div class="flex-grow-1"></div>
           <b-navbar class="nav" toggleable="sm">
-            <b-nav-item href="#">Link</b-nav-item>
-            <b-nav-item href="#">Link</b-nav-item>
-            <b-nav-item href="#">Link</b-nav-item>
+            <b-nav-item href="#"
+              ><img src="/THE-HEIST_TWITTER-BUTTON.png"
+            /></b-nav-item>
+            <b-nav-item href="#"
+              ><img src="/THE-HEIST_INSTAGRAM-BUTTON.png"
+            /></b-nav-item>
+            <b-nav-item href="#"
+              ><img src="/THE-HEIST_YOUTUBE-BUTTON.png"
+            /></b-nav-item>
           </b-navbar>
         </div>
       </div>
@@ -27,13 +33,17 @@
                 pill
                 style="background-color: white; color: black; width: 300px"
                 to="/landing"
-                >Join the Whitelist</b-button
+                >Enter Here</b-button
               >
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="bottom-right">
+      <img src="/The-Heist-Website_2.0_DESKTOP-Q_11921.png" />
+    </div>
+    <div class="bottom-left text-white"></div>
   </div>
 </template>
 
@@ -87,7 +97,7 @@ export default {};
 
 .main-msg {
   font-family: "Champange";
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .card-btn {
@@ -98,16 +108,33 @@ export default {};
 /* Bottom right text */
 .bottom-right {
   position: absolute;
-  bottom: 8px;
+  bottom: 4px;
   right: 16px;
+  z-index: 100000;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 16px;
+  z-index: 100000;
 }
 .image-size {
   height: calc(100vh - 56px);
 }
 </style>
 <style>
-body {
-  background-image: url("/landing.jpg");
-  background-size: cover;
+@media (max-width: 375px) {
+  body {
+    background-image: url("/landingmobile.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 380px) {
+  body {
+    background-image: url("/landingmain.jpg");
+    background-size: cover;
+  }
 }
 </style>
