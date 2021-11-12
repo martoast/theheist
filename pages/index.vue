@@ -1,51 +1,39 @@
 <template>
-  <div>
-    <b-navbar
-      class="nav"
-      toggleable="sm"
-      type="light"
-      style="background-color: #000000"
-    >
-      <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="d-flex">
+          <div class="flex-grow-1"></div>
+          <b-navbar class="nav" toggleable="sm">
+            <b-nav-item href="#">Link</b-nav-item>
+            <b-nav-item href="#">Link</b-nav-item>
+            <b-nav-item href="#">Link</b-nav-item>
+          </b-navbar>
+        </div>
+      </div>
+    </div>
 
-      <b-navbar-brand class="main-logo text-white">The Heist</b-navbar-brand>
-
-      <!-- <div class="d-flex">
-        <b-nav-item href="#">Link</b-nav-item>
-        <b-nav-item href="#">Link</b-nav-item>
-        <b-nav-item href="#">Link</b-nav-item>
-      </div> -->
-    </b-navbar>
-    <b-img :src="'landing.jpg'" class="landing-img" alt="Responsive image">
-    </b-img>
-    <b-card style="background-color: #000000" text-variant="white">
-      <b-row no-gutters>
-        <b-col sm="6">
-          <b-card-body>
-            <b-card-text class="card-msg">
+    <div class="row">
+      <div class="col- offset-md-8">
+        <div class="d-flex flex-column justify-content-end image-size">
+          <div class="p-4 mb-5">
+            <p class="main-msg">
               A limited Collection of unique NFT tokens, that will allow you to
               dive into a story of coquette mischief and new identities.
-            </b-card-text>
-          </b-card-body>
-          <div style="text-align: center" class="py-3">
-            <h3 class="card-btn">Welcome To The Heist</h3>
-            <b-button
-              pill
-              style="background-color: white; color: black; width: 300px"
-              to="/landing"
-              >Join the Whitelist</b-button
-            >
+            </p>
+            <div class="py-3">
+              <h3 class="card-btn text-white">Welcome To The Heist</h3>
+              <b-button
+                pill
+                style="background-color: white; color: black; width: 300px"
+                to="/landing"
+                >Join the Whitelist</b-button
+              >
+            </div>
           </div>
-        </b-col>
-        <b-col sm="6">
-          <b-card-img
-            :src="'landing2.jpg'"
-            alt="Image"
-            class="rounded-0"
-          ></b-card-img>
-        </b-col>
-      </b-row>
-    </b-card>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -76,6 +64,7 @@ export default {};
   font-display: swap;
   src: url("~assets/fonts/Champagne.ttf") format("truetype");
 }
+
 .landing-img {
   max-width: 100%;
 
@@ -88,7 +77,6 @@ export default {};
   position: relative;
 }
 .nav {
-  position: absolute;
   z-index: 100000;
 }
 
@@ -97,13 +85,29 @@ export default {};
   font-size: 48px;
 }
 
-.card-msg {
+.main-msg {
   font-family: "Champange";
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .card-btn {
   font-family: "Abys";
-  font-size: 48px;
+  font-size: 36px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.image-size {
+  height: calc(100vh - 56px);
+}
+</style>
+<style>
+body {
+  background-image: url("/landing.jpg");
+  background-size: cover;
 }
 </style>
