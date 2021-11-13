@@ -1,39 +1,30 @@
 <template>
   <div class="container-fluid">
-    <div class="row">
+    <!-- <div class="row">
       <div class="col">
         <div class="d-flex">
           <div class="flex-grow-1"></div>
           <b-navbar class="nav" toggleable="sm">
-            <b-nav-item href="#"
-              ><img src="/THE-HEIST_TWITTER-BUTTON.png"
-            /></b-nav-item>
-            <b-nav-item href="#"
-              ><img src="/THE-HEIST_INSTAGRAM-BUTTON.png"
-            /></b-nav-item>
-            <b-nav-item href="#"
-              ><img src="/THE-HEIST_YOUTUBE-BUTTON.png"
-            /></b-nav-item>
+            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
+            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
+            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
+            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
           </b-navbar>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row">
-      <div class="col- offset-md-8">
-        <div class="d-flex flex-column justify-content-end image-size">
+      <div class="offset-md-8">
+        <div class="d-flex flex-column justify-content-end">
           <div class="msg-container">
             <p class="main-msg text-white">
               A limited Collection of unique NFT tokens, that will allow you to
               dive into a story of coquette mischief and new identities.
             </p>
-            <div>
+            <div class="text-center">
               <h3 class="card-btn text-white">Welcome To The Heist</h3>
-              <b-button
-                pill
-                class="enter-btn"
-                variant="outline-light"
-                to="/landing"
+              <b-button pill class="enter-btn border-0" to="/landing"
                 >Enter Here</b-button
               >
             </div>
@@ -41,10 +32,21 @@
         </div>
       </div>
     </div>
-    <div class="bottom-right">
-      <img src="/The-Heist-Website_2.0_DESKTOP-Q_11921.png" />
+    <div class="footer">
+      <div class="container" fluid>
+        <b-row align-h="between">
+          <b-col cols="auto" class="mr-auto p-3">
+            <div class="terms" style="text-decoration: underline">
+              ©2021 The Heist LLC
+            </div>
+            <div class="terms">Terms and conditions</div>
+          </b-col>
+          <b-col cols="auto" class="ml-auto p-3"
+            ><img src="/The-Heist-Website_2.0_DESKTOP-Q_11921.png"
+          /></b-col>
+        </b-row>
+      </div>
     </div>
-    <div class="bottom-left text-white"></div>
   </div>
 </template>
 
@@ -52,6 +54,11 @@
 export default {};
 </script>
 <style scoped>
+#someDiv {
+  line-height: 1.5em;
+  height: 3em; /* height is 2x line-height, so two lines will display */
+  overflow: hidden; /* prevents extra lines from being visible */
+}
 @font-face {
   font-family: "Abys";
   font-style: normal;
@@ -91,8 +98,14 @@ export default {};
   z-index: 100000;
 }
 
-.image-size {
-  height: calc(100vh - 56px);
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  text-align: center;
 }
 </style>
 <style>
@@ -100,6 +113,9 @@ export default {};
   body {
     background-image: url("/landingmobile.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
 
   .msg-container {
@@ -129,24 +145,33 @@ export default {};
     font-size: 14px;
   }
 
+  .terms {
+    font-family: "Champange";
+    font-size: 12px;
+  }
+
   .card-btn {
     font-family: "Abys";
     font-size: 26px;
   }
 
   .enter-btn {
-    width: 200px;
+    width: 150px;
+    background-color: rgb(48, 48, 48, 0.5);
   }
 }
 @media (min-width: 380px) {
   body {
-    background-image: url("/landingmain.jpg");
+    background-image: url("/landing.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% calc(100% - 46px);
   }
 
   .msg-container {
     position: absolute;
-    padding: 3rem;
+    padding: 4rem;
     bottom: 4rem;
   }
 
@@ -170,6 +195,11 @@ export default {};
     font-size: 24px;
   }
 
+  .terms {
+    font-family: "Champange";
+    font-size: 16px;
+  }
+
   .card-btn {
     font-family: "Abys";
     font-size: 36px;
@@ -177,6 +207,7 @@ export default {};
 
   .enter-btn {
     width: 300px;
+    background-color: rgb(48, 48, 48, 0.5);
   }
 }
 </style>
