@@ -113,7 +113,226 @@ export default {};
 }
 </style>
 <style>
-@media (max-width: 850px) {
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: url("/landingmobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .social-actions {
+    display: none;
+  }
+
+  .msg-container {
+    position: absolute;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    top: 4rem;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+
+  .main-msg {
+    font-family: "Champange";
+    font-size: 13px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 12px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 26px;
+  }
+
+  .enter-btn {
+    width: 150px;
+    background-color: rgb(48, 48, 48, 0.5);
+    font-family: "Champange";
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: url("/landingmobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .social-actions {
+    display: none;
+  }
+
+  .msg-container {
+    position: absolute;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    top: 4rem;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+
+  .main-msg {
+    font-family: "Champange";
+    font-size: 13px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 12px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 20px;
+  }
+
+  .enter-btn {
+    width: 125px;
+    background-color: rgb(48, 48, 48, 0.5);
+    font-family: "Champange";
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: url("/landingmobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .social-actions {
+    display: none;
+  }
+
+  .msg-container {
+    position: absolute;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    top: 4rem;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+
+  .main-msg {
+    font-family: "Champange";
+    font-size: 14px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 12px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 26px;
+  }
+
+  .enter-btn {
+    width: 135px;
+    background-color: rgb(48, 48, 48, 0.5);
+    font-family: "Champange";
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   body {
     background-image: url("/landingmobile.jpg");
     background-size: cover;
@@ -181,7 +400,370 @@ export default {};
     font-family: "Champange";
   }
 }
-@media (min-width: 850px) {
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    background-image: url("/landingmobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .social-actions {
+    display: none;
+  }
+
+  .msg-container {
+    position: absolute;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    top: 4rem;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+
+  .main-msg {
+    font-family: "Champange";
+    font-size: 14px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 12px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 26px;
+  }
+
+  .enter-btn {
+    width: 150px;
+    background-color: rgb(48, 48, 48, 0.5);
+    font-family: "Champange";
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    background-image: url("/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% calc(100% - 69px);
+  }
+
+  .msg-container {
+    position: absolute;
+    padding: 4rem;
+    bottom: 5rem;
+  }
+
+  .social-actions {
+    height: 80px;
+    width: 80px;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 4px;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+  .main-msg {
+    font-family: "Champange";
+    font-size: 22px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 16px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 34px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .enter-btn {
+    width: 300px;
+    background-color: rgb(48, 48, 48, 0.5);
+    margin-top: 1rem;
+    font-family: "Champange";
+    font-size: 18px;
+  }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: url("/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% calc(100% - 69px);
+  }
+
+  .msg-container {
+    position: absolute;
+    padding: 4rem;
+    bottom: 5rem;
+  }
+
+  .social-actions {
+    height: 80px;
+    width: 80px;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 4px;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+  .main-msg {
+    font-family: "Champange";
+    font-size: 22px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 16px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 34px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .enter-btn {
+    width: 300px;
+    background-color: rgb(48, 48, 48, 0.5);
+    margin-top: 1rem;
+    font-family: "Champange";
+    font-size: 18px;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: url("/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% calc(100% - 69px);
+  }
+
+  .msg-container {
+    position: absolute;
+    padding: 4rem;
+    bottom: 5rem;
+  }
+
+  .social-actions {
+    height: 80px;
+    width: 80px;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 4px;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+  .main-msg {
+    font-family: "Champange";
+    font-size: 22px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 16px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 34px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .enter-btn {
+    width: 300px;
+    background-color: rgb(48, 48, 48, 0.5);
+    margin-top: 1rem;
+    font-family: "Champange";
+    font-size: 18px;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: url("/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% calc(100% - 69px);
+  }
+
+  .msg-container {
+    position: absolute;
+    padding: 4rem;
+    bottom: 5rem;
+  }
+
+  .social-actions {
+    height: 80px;
+    width: 80px;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 4px;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+  .main-msg {
+    font-family: "Champange";
+    font-size: 22px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 16px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 34px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .enter-btn {
+    width: 300px;
+    background-color: rgb(48, 48, 48, 0.5);
+    margin-top: 1rem;
+    font-family: "Champange";
+    font-size: 18px;
+  }
+}
+
+/* LAPTOPS */
+
+@media screen and (min-device-width: 1200px) {
   body {
     background-image: url("/landing.jpg");
     background-size: cover;
