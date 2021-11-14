@@ -113,7 +113,7 @@ export default {};
 }
 </style>
 <style>
-@media (max-width: 375px) {
+@media (max-width: 850px) {
   body {
     background-image: url("/landingmobile.jpg");
     background-size: cover;
@@ -140,7 +140,7 @@ export default {};
     position: absolute;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     top: 4rem;
   }
 
@@ -181,7 +181,7 @@ export default {};
     font-family: "Champange";
   }
 }
-@media (min-width: 380px) {
+@media (min-width: 850px) {
   body {
     background-image: url("/landing.jpg");
     background-size: cover;
