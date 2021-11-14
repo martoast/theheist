@@ -1,18 +1,34 @@
 <template>
   <div class="container-fluid">
-    <!-- <div class="row">
+    <div class="row">
       <div class="col">
         <div class="d-flex">
           <div class="flex-grow-1"></div>
           <b-navbar class="nav" toggleable="sm">
-            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
-            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
-            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
-            <b-nav-item href="#"><img src="/image2vector.svg" /></b-nav-item>
+            <b-nav-item
+              class="social-actions"
+              href="//opeansea.io/theheist.world"
+              ><img src="/OPENSEA.svg"
+            /></b-nav-item>
+            <b-nav-item
+              class="social-actions"
+              href="//twitter.com/theheist.world"
+              ><img src="/TWITTER.svg"
+            /></b-nav-item>
+            <b-nav-item
+              class="social-actions"
+              href="//youtube.com/theheist.world"
+              ><img src="/YOUTUBE.svg"
+            /></b-nav-item>
+            <b-nav-item
+              class="social-actions"
+              href="//instagram.com/theheist.world"
+              ><img :src="require('~/static/IG.svg')"
+            /></b-nav-item>
           </b-navbar>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div class="row">
       <div class="offset-md-8">
@@ -33,19 +49,17 @@
       </div>
     </div>
     <div class="footer">
-      <div class="container" fluid>
-        <b-row align-h="between">
-          <b-col cols="auto" class="mr-auto p-3">
-            <div class="terms" style="text-decoration: underline">
-              ©2021 The Heist LLC
-            </div>
-            <div class="terms">Terms and conditions</div>
-          </b-col>
-          <b-col cols="auto" class="ml-auto p-3"
-            ><img src="/The-Heist-Website_2.0_DESKTOP-Q_11921.png"
-          /></b-col>
-        </b-row>
-      </div>
+      <b-row align-h="between" class="px-4">
+        <b-col cols="auto" class="mr-auto p-3">
+          <div class="terms" style="text-decoration: underline">
+            ©2021 The Heist LLC
+          </div>
+          <div class="terms">Terms and conditions</div>
+        </b-col>
+        <b-col cols="auto" class="ml-auto p-3"
+          ><img src="/The-Heist-Website_2.0_DESKTOP-Q_11921.png"
+        /></b-col>
+      </b-row>
     </div>
   </div>
 </template>
@@ -118,6 +132,10 @@ export default {};
     background-size: 100% 100%;
   }
 
+  .social-actions {
+    display: none;
+  }
+
   .msg-container {
     position: absolute;
     padding: 3rem;
@@ -173,6 +191,11 @@ export default {};
     position: absolute;
     padding: 4rem;
     bottom: 4rem;
+  }
+
+  .social-actions {
+    height: 80px;
+    width: 80px;
   }
 
   /* Bottom right text */
