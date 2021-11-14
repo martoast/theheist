@@ -111,16 +111,6 @@ export default {};
 .nav {
   z-index: 100000;
 }
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(48, 48, 48);
-  color: white;
-  text-align: center;
-}
 </style>
 <style>
 @media (max-width: 375px) {
@@ -132,13 +122,25 @@ export default {};
     background-size: 100% 100%;
   }
 
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
   .social-actions {
     display: none;
   }
 
   .msg-container {
     position: absolute;
-    padding: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
     top: 4rem;
   }
 
@@ -176,6 +178,7 @@ export default {};
   .enter-btn {
     width: 150px;
     background-color: rgb(48, 48, 48, 0.5);
+    font-family: "Champange";
   }
 }
 @media (min-width: 380px) {
@@ -184,13 +187,13 @@ export default {};
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% calc(100% - 46px);
+    background-size: 100% calc(100% - 69px);
   }
 
   .msg-container {
     position: absolute;
     padding: 4rem;
-    bottom: 4rem;
+    bottom: 5rem;
   }
 
   .social-actions {
@@ -215,7 +218,7 @@ export default {};
   }
   .main-msg {
     font-family: "Champange";
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .terms {
@@ -225,12 +228,25 @@ export default {};
 
   .card-btn {
     font-family: "Abys";
-    font-size: 36px;
+    font-size: 34px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
   }
 
   .enter-btn {
     width: 300px;
     background-color: rgb(48, 48, 48, 0.5);
+    margin-top: 1rem;
+    font-family: "Champange";
+    font-size: 18px;
   }
 }
 </style>
