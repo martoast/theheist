@@ -144,7 +144,7 @@ export default {};
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 0.5rem;
-    top: 3rem;
+    top: 3.3rem;
   }
 
   /* Bottom right text */
@@ -431,7 +431,7 @@ export default {};
     position: absolute;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     top: 4rem;
   }
 
@@ -467,7 +467,7 @@ export default {};
   }
 
   .enter-btn {
-    width: 150px;
+    width: 125px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
