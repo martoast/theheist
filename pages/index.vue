@@ -57,7 +57,7 @@
           <div class="terms">Terms and conditions</div>
         </b-col>
         <b-col cols="auto" class="ml-auto p-3"
-          ><img src="/The-Heist-Website_2.0_DESKTOP-Q_11921.png"
+          ><img style="height: 36px" src="/Mel-Signature.svg"
         /></b-col>
       </b-row>
     </div>
@@ -144,7 +144,7 @@ export default {};
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 0.5rem;
-    top: 4rem;
+    top: 3.2rem;
   }
 
   /* Bottom right text */
@@ -478,7 +478,7 @@ export default {};
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   body {
-    background-image: url("/landing.jpg");
+    background-image: url("/The-Heist-IPAD.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -550,7 +550,7 @@ export default {};
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
-    background-image: url("/landing.jpg");
+    background-image: url("/The-Heist-IPAD.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -622,7 +622,7 @@ export default {};
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
-    background-image: url("/landing.jpg");
+    background-image: url("/The-Heist-IPAD-PRO.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -694,7 +694,7 @@ export default {};
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
-    background-image: url("/landing.jpg");
+    background-image: url("/The-Heist-IPAD-PRO.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
