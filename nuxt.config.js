@@ -4,7 +4,7 @@ export default {
   target: "static",
 
   head: {
-    title: "theheist",
+    title: "THE HEIST - OFFICIAL NFT COLLECTION",
     htmlAttrs: {
       lang: "en",
     },

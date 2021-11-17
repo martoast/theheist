@@ -5,9 +5,7 @@
         <div class="d-flex">
           <div class="flex-grow-1"></div>
           <b-navbar class="nav" toggleable="sm">
-            <b-nav-item
-              class="social-actions"
-              href="//opeansea.io/theheist.world"
+            <b-nav-item class="social-actions"
               ><img src="/OPENSEA.svg"
             /></b-nav-item>
             <b-nav-item
@@ -15,9 +13,7 @@
               href="//twitter.com/theheist.world"
               ><img src="/TWITTER.svg"
             /></b-nav-item>
-            <b-nav-item
-              class="social-actions"
-              href="//youtube.com/theheist.world"
+            <b-nav-item class="social-actions"
               ><img src="/YOUTUBE.svg"
             /></b-nav-item>
             <b-nav-item
@@ -40,9 +36,7 @@
             </p>
             <div class="text-center">
               <h3 class="card-btn text-white">Welcome To The Heist</h3>
-              <b-button pill class="enter-btn border-0" to="/landing"
-                >Enter Here</b-button
-              >
+              <b-button pill class="enter-btn border-0">Coming soon</b-button>
             </div>
           </div>
         </div>
@@ -52,7 +46,7 @@
       <b-row align-h="between" class="px-4">
         <b-col cols="auto" class="mr-auto p-3">
           <div class="terms" style="text-decoration: underline">
-            ©2021 The Heist LLC
+            © THE HEIST - OFFICIAL NFT COLLECTION
           </div>
           <div class="terms">Terms and conditions</div>
         </b-col>
@@ -486,14 +480,14 @@ export default {};
   }
 
   .msg-container {
-    position: absolute;
-    padding: 4rem;
-    bottom: 5rem;
+    left: 5rem;
+    margin-top: 2rem;
   }
 
   .social-actions {
     height: 80px;
     width: 80px;
+    display: none;
   }
 
   /* Bottom right text */
@@ -559,8 +553,10 @@ export default {};
 
   .msg-container {
     position: absolute;
-    padding: 4rem;
-    bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    top: 5rem;
   }
 
   .social-actions {
@@ -585,7 +581,7 @@ export default {};
   }
   .main-msg {
     font-family: "Champange";
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .terms {
@@ -595,7 +591,7 @@ export default {};
 
   .card-btn {
     font-family: "Abys";
-    font-size: 34px;
+    font-size: 38px;
   }
 
   .footer {
@@ -631,13 +627,16 @@ export default {};
 
   .msg-container {
     position: absolute;
-    padding: 4rem;
-    bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    top: 5rem;
   }
 
   .social-actions {
     height: 80px;
     width: 80px;
+    display: none;
   }
 
   /* Bottom right text */
@@ -657,7 +656,7 @@ export default {};
   }
   .main-msg {
     font-family: "Champange";
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .terms {
@@ -667,7 +666,7 @@ export default {};
 
   .card-btn {
     font-family: "Abys";
-    font-size: 34px;
+    font-size: 40px;
   }
 
   .footer {
@@ -729,7 +728,7 @@ export default {};
   }
   .main-msg {
     font-family: "Champange";
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .terms {
@@ -739,7 +738,7 @@ export default {};
 
   .card-btn {
     font-family: "Abys";
-    font-size: 34px;
+    font-size: 40px;
   }
 
   .footer {
