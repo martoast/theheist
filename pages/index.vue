@@ -46,9 +46,9 @@
       <b-row align-h="between" class="px-4">
         <b-col cols="auto" class="mr-auto p-3">
           <div class="terms" style="text-decoration: underline">
-            © THE HEIST - OFFICIAL NFT COLLECTION
+            THE HEIST Terms and conditions
           </div>
-          <div class="terms">Terms and conditions</div>
+          <div class="terms">2021 THE HEIST ™</div>
         </b-col>
         <b-col cols="auto" class="ml-auto p-3"
           ><img style="height: 36px" src="/Mel-Signature.svg"
