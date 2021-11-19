@@ -467,6 +467,76 @@ export default {};
   }
 }
 
+/* 2778x1284 pixels at 458ppi */
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background-image: url("/landingmobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+  }
+
+  .social-actions {
+    display: none;
+  }
+
+  .msg-container {
+    position: absolute;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2.5rem;
+    top: 4rem;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    z-index: 100000;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 16px;
+    z-index: 100000;
+  }
+
+  .main-msg {
+    font-family: "Champange";
+    font-size: 14px;
+  }
+
+  .terms {
+    font-family: "Champange";
+    font-size: 12px;
+  }
+
+  .card-btn {
+    font-family: "Abys";
+    font-size: 26px;
+  }
+
+  .enter-btn {
+    width: 125px;
+    background-color: rgb(48, 48, 48, 0.5);
+    font-family: "Champange";
+  }
+}
+
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
 /* Portrait and Landscape */
