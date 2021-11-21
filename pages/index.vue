@@ -10,7 +10,7 @@
             /></b-nav-item>
             <b-nav-item
               class="social-actions"
-              href="//twitter.com/theheist.world"
+              href="//twitter.com/theheistworld"
               ><img src="/TWITTER.svg"
             /></b-nav-item>
             <b-nav-item class="social-actions"
