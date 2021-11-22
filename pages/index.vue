@@ -32,7 +32,7 @@
           <div class="msg-container">
             <p class="main-msg text-white">
               A limited Collection of unique NFT tokens, that will allow you to
-              dive into a story of coquette mischief and new identities.
+              dive into a story of coquette mischief & new identities.
             </p>
             <div class="text-center">
               <h3 class="card-btn text-white">Welcome To The Heist</h3>
