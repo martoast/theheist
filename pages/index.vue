@@ -281,7 +281,7 @@ export default {};
     position: absolute;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     top: 4rem;
   }
 
@@ -353,7 +353,7 @@ export default {};
     position: absolute;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     top: 4rem;
   }
 
@@ -425,7 +425,7 @@ export default {};
     position: absolute;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 1.5rem;
+    padding-top: 2.5rem;
     top: 4rem;
   }
 
@@ -495,7 +495,7 @@ export default {};
     position: absolute;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 2.5rem;
+    padding-top: 2.8rem;
     top: 4rem;
   }
 

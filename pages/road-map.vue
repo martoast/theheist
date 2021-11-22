@@ -2,9 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="black">
       <b-navbar-brand class="logo" href="#">The Heist</b-navbar-brand>
-
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
@@ -14,9 +12,9 @@
           <b-nav-item class="social-actions" href="//twitter.com/theheistworld"
             ><img src="/TWITTER.svg"
           /></b-nav-item>
-          <b-nav-item class="social-actions"
-            ><img src="/YOUTUBE.svg"
-          /></b-nav-item>
+          <b-nav-item class="social-actions">
+            <img src="/YOUTUBE.svg" />
+          </b-nav-item>
           <b-nav-item
             class="social-actions"
             href="//instagram.com/theheist.world"
