@@ -36,7 +36,7 @@
             </p>
             <div class="text-center">
               <h3 class="card-btn text-white">Welcome To The Heist</h3>
-              <b-button pill class="enter-btn border-0">Coming soon</b-button>
+              <b-button pill class="enter-btn border-0">COMING SOON</b-button>
             </div>
           </div>
         </div>
