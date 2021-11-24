@@ -36,7 +36,31 @@
             </p>
             <div class="text-center">
               <h3 class="card-btn text-white">Welcome To The Heist</h3>
-              <b-button pill class="enter-btn border-0">COMING SOON</b-button>
+
+              <div>
+                <b-navbar class="nav">
+                  <b-nav-item class="social-actions-mobile"
+                    ><img src="/OPENSEA.svg"
+                  /></b-nav-item>
+                  <b-nav-item
+                    class="social-actions-mobile"
+                    href="//twitter.com/theheistworld"
+                    ><img src="/TWITTER.svg"
+                  /></b-nav-item>
+                  <b-nav-item class="social-actions-mobile"
+                    ><img src="/YOUTUBE.svg"
+                  /></b-nav-item>
+                  <b-nav-item
+                    class="social-actions-mobile"
+                    href="//instagram.com/theheist.world"
+                    ><img src="/IG.svg"
+                  /></b-nav-item>
+                </b-navbar>
+              </div>
+
+              <b-button to="/whitelist" pill class="enter-btn border-0"
+                >JOIN WHITELIST</b-button
+              >
             </div>
           </div>
         </div>
@@ -133,6 +157,11 @@ export default {};
     display: none;
   }
 
+  .social-actions-mobile {
+    height: 60px;
+    width: 60px;
+  }
+
   .msg-container {
     position: absolute;
     padding-left: 3rem;
@@ -173,7 +202,7 @@ export default {};
   }
 
   .enter-btn {
-    width: 125px;
+    width: 135px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
@@ -203,6 +232,11 @@ export default {};
 
   .social-actions {
     display: none;
+  }
+
+  .social-actions-mobile {
+    height: 60px;
+    width: 60px;
   }
 
   .msg-container {
@@ -277,6 +311,11 @@ export default {};
     display: none;
   }
 
+  .social-actions-mobile {
+    height: 60px;
+    width: 60px;
+  }
+
   .msg-container {
     position: absolute;
     padding-left: 3rem;
@@ -317,7 +356,7 @@ export default {};
   }
 
   .enter-btn {
-    width: 125px;
+    width: 145px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
@@ -349,6 +388,11 @@ export default {};
     display: none;
   }
 
+  .social-actions-mobile {
+    height: 60px;
+    width: 60px;
+  }
+
   .msg-container {
     position: absolute;
     padding-left: 3rem;
@@ -389,7 +433,7 @@ export default {};
   }
 
   .enter-btn {
-    width: 125px;
+    width: 145px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
@@ -419,6 +463,11 @@ export default {};
 
   .social-actions {
     display: none;
+  }
+
+  .social-actions-mobile {
+    height: 60px;
+    width: 60px;
   }
 
   .msg-container {
@@ -461,7 +510,7 @@ export default {};
   }
 
   .enter-btn {
-    width: 125px;
+    width: 145px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
@@ -531,7 +580,7 @@ export default {};
   }
 
   .enter-btn {
-    width: 125px;
+    width: 145px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
@@ -781,6 +830,10 @@ export default {};
     width: 80px;
   }
 
+  .social-actions-mobile {
+    display: none;
+  }
+
   /* Bottom right text */
   .bottom-right {
     position: absolute;
@@ -850,6 +903,10 @@ export default {};
   .social-actions {
     height: 80px;
     width: 80px;
+  }
+
+  .social-actions-mobile {
+    display: none;
   }
 
   /* Bottom right text */
