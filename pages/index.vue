@@ -37,26 +37,26 @@
             <div class="text-center">
               <h3 class="card-btn text-white">Welcome To The Heist</h3>
 
-              <div>
-                <b-navbar class="nav">
-                  <b-nav-item class="social-actions-mobile"
-                    ><img src="/OPENSEA.svg"
-                  /></b-nav-item>
-                  <b-nav-item
-                    class="social-actions-mobile"
-                    href="//twitter.com/theheistworld"
-                    ><img src="/TWITTER.svg"
-                  /></b-nav-item>
-                  <b-nav-item class="social-actions-mobile"
-                    ><img src="/YOUTUBE.svg"
-                  /></b-nav-item>
-                  <b-nav-item
-                    class="social-actions-mobile"
-                    href="//instagram.com/theheist.world"
-                    ><img src="/IG.svg"
-                  /></b-nav-item>
-                </b-navbar>
-              </div>
+              <b-row>
+                <b-col>
+                  <b-navbar class="nav" style="justify-content: center">
+                    <b-nav-item class="social-actions-mobile"
+                      ><img src="/OPENSEA.svg"
+                    /></b-nav-item>
+
+                    <b-nav-item
+                      class="social-actions-mobile"
+                      href="//instagram.com/theheist.world"
+                      ><img src="/IG.svg"
+                    /></b-nav-item>
+                    <b-nav-item
+                      class="social-actions-mobile"
+                      href="//twitter.com/theheistworld"
+                      ><img src="/TWITTER.svg"
+                    /></b-nav-item>
+                  </b-navbar>
+                </b-col>
+              </b-row>
 
               <b-button to="/whitelist" pill class="enter-btn border-0"
                 >JOIN WHITELIST</b-button
@@ -66,6 +66,7 @@
         </div>
       </div>
     </div>
+
     <div class="footer">
       <b-row align-h="between" class="px-4">
         <b-col cols="auto" class="mr-auto p-3">
@@ -235,8 +236,8 @@ export default {};
   }
 
   .social-actions-mobile {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
   }
 
   .msg-container {
@@ -312,8 +313,8 @@ export default {};
   }
 
   .social-actions-mobile {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
   }
 
   .msg-container {
@@ -389,8 +390,8 @@ export default {};
   }
 
   .social-actions-mobile {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
   }
 
   .msg-container {
@@ -466,15 +467,15 @@ export default {};
   }
 
   .social-actions-mobile {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
   }
 
   .msg-container {
     position: absolute;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     top: 4rem;
   }
 
@@ -510,7 +511,7 @@ export default {};
   }
 
   .enter-btn {
-    width: 145px;
+    width: 155px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
@@ -538,6 +539,11 @@ export default {};
 
   .social-actions {
     display: none;
+  }
+
+  .social-actions-mobile {
+    height: 75px;
+    width: 75px;
   }
 
   .msg-container {
@@ -576,11 +582,11 @@ export default {};
 
   .card-btn {
     font-family: "Abys";
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .enter-btn {
-    width: 145px;
+    width: 155px;
     background-color: rgb(48, 48, 48, 0.5);
     font-family: "Champange";
   }
