@@ -13,9 +13,6 @@
               href="//twitter.com/theheistworld"
               ><img src="/TWITTER.svg"
             /></b-nav-item>
-            <b-nav-item class="social-actions"
-              ><img src="/YOUTUBE.svg"
-            /></b-nav-item>
             <b-nav-item
               class="social-actions"
               href="//instagram.com/theheist.world"
@@ -71,7 +68,7 @@
       <b-row align-h="between" class="px-4">
         <b-col cols="auto" class="mr-auto p-3">
           <div class="terms" style="text-decoration: underline">
-            THE HEIST Terms and conditions
+            THE HEIST TERMS & CONDITIONS
           </div>
           <div class="terms">2021 THE HEIST ™</div>
         </b-col>
