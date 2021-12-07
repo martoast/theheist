@@ -55,7 +55,7 @@
                 </b-col>
               </b-row>
 
-              <b-button to="/whitelist" pill class="enter-btn border-0"
+              <b-button pill class="enter-btn border-0"
                 >PUBLIC SALE COMING SOON</b-button
               >
             </div>
