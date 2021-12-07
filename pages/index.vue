@@ -56,7 +56,7 @@
               </b-row>
 
               <b-button to="/whitelist" pill class="enter-btn border-0"
-                >JOIN WHITELIST</b-button
+                >PUBLIC SALE COMING SOON</b-button
               >
             </div>
           </div>
