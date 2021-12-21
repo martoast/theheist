@@ -1,12 +1,15 @@
 <template>
   <div>
-    <b-navbar type="dark" style="background-color: rgb(48, 48, 48)">
-      <b-navbar-nav>
-        <b-nav-item class="item text-white" href="/">Home</b-nav-item>
-        <b-nav-item class="item text-white" href="/about-us"
-          >About us</b-nav-item
-        >
-      </b-navbar-nav>
+    <b-navbar toggleable="sm" type="dark" style="background-color: tranparent">
+      <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-text-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item class="item text-white" href="/">Home</b-nav-item>
+          <b-nav-item class="item text-white" href="/about-us"
+            >About us</b-nav-item
+          >
+        </b-navbar-nav>
+      </b-collapse>
     </b-navbar>
     <Nuxt />
   </div>

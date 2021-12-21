@@ -4,6 +4,7 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-grow-1"></div>
+
           <b-navbar class="nav" toggleable="sm">
             <b-nav-item class="social-actions"
               ><img src="/OPENSEA.svg"
@@ -125,9 +126,6 @@ export default {
 
   /* Needed to position the navbar */
   position: relative;
-}
-.nav {
-  z-index: 100000;
 }
 </style>
 <style>
