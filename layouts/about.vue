@@ -1,10 +1,6 @@
 <template>
   <div>
-    <b-navbar
-      toggleable="sm"
-      type="dark"
-      style="background-color: tranparent; z-index: 100000"
-    >
+    <b-navbar toggleable="sm" type="dark" style="background-color: #000">
       <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
       <b-collapse id="nav-text-collapse" is-nav>
         <b-navbar-nav>

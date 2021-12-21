@@ -77,7 +77,7 @@
 </template>
 <script>
 export default {
-  layout: "main",
+  layout: "about",
 };
 </script>
 <style scoped>
