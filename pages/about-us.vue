@@ -6,7 +6,7 @@
           <h1 class="title text-white">What Is The Heist?</h1>
         </b-col>
       </b-row>
-      <div class="about text-white">
+      <div class="about text-white pt-2 pt-md-4">
         <p>The Heist is an innovative NFT Collection</p>
         <p>
           The Heist Group consists of 3 women who find themselves at a

@@ -6,7 +6,7 @@
           <h1 class="title text-white">FAQ</h1>
         </b-col>
       </b-row>
-      <div class="about text-white">
+      <div class="about text-white pt-3 pt-md-4">
         <h3>What is The Heist?</h3>
         <p>
           The first limited collection of unique 10,000 NFT tokens, a Union of
