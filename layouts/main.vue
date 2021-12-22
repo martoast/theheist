@@ -23,9 +23,9 @@
     but hey, it's pure CSS magic.
     -->
         <ul id="menu">
-          <a href="#"><li>Home</li></a>
-          <a href="/about-us"><li>About</li></a>
-          <a href="/fqa"><li>FAQ</li></a>
+          <a href="/"><p class="about text-white">Home</p></a>
+          <a href="/about-us"><p class="about text-white">About</p></a>
+          <a href="/faq"><p class="about text-white">FAQ</p></a>
         </ul>
       </div>
     </nav>
@@ -57,9 +57,9 @@
   src: url("~assets/fonts/Champagne.ttf") format("truetype");
 }
 
-.item {
+.about {
   font-family: "komik";
-  font-size: 16px;
+  font-size: 22px;
 }
 
 /*
@@ -177,7 +177,7 @@
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  background: #000;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */

@@ -1,7 +1,7 @@
 <template>
   <div style="background-color: #000 !important">
     <b-container class="p-3">
-      <b-row align-h="center" class="text-center">
+      <b-row align-h="center" class="text-center pt-5 mt-4">
         <b-col>
           <h1 class="title text-white">What Is The Heist?</h1>
         </b-col>
@@ -77,7 +77,7 @@
 </template>
 <script>
 export default {
-  layout: "about",
+  layout: "main",
 };
 </script>
 <style scoped>
@@ -112,5 +112,8 @@ export default {
 .title {
   font-family: "komik";
   font-size: 32px;
+}
+.shit {
+  padding-top: 2rem;
 }
 </style>
