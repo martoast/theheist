@@ -47,3 +47,42 @@
     </b-container>
   </div>
 </template>
+<script>
+export default {
+  layout: "about",
+};
+</script>
+<style scoped>
+@font-face {
+  font-family: "Abys";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/abys-regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "komik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/komik.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Champange";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/Champagne.ttf") format("truetype");
+}
+
+.about {
+  font-family: "Champange";
+  font-size: 22px;
+}
+.title {
+  font-family: "komik";
+  font-size: 32px;
+}
+</style>

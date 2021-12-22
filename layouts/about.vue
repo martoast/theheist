@@ -8,6 +8,7 @@
           <b-nav-item class="item text-white" href="/about-us"
             >About us</b-nav-item
           >
+          <b-nav-item class="item text-white" href="/faq">FAQ</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
