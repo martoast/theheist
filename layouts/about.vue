@@ -42,6 +42,6 @@
 
 .item {
   font-family: "komik";
-  font-size: 16px;
+  font-size: 2rem;
 }
 </style>

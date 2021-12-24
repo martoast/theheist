@@ -7,7 +7,9 @@
         </b-col>
       </b-row>
       <div class="about text-white pt-2 pt-md-4">
-        <p>The Heist is an innovative NFT Collection</p>
+        <p class="font-weight-bold">
+          The Heist is an innovative NFT Collection.
+        </p>
         <p>
           The Heist Group consists of 3 women who find themselves at a
           crossroad. A drunk and impulsive night turned into risking everything
@@ -69,7 +71,7 @@
         </p>
         <p>But like they say in the Papers- “It may all just be a myth”</p>
         <p>xo,</p>
-        <p>THG</p>
+        <p class="font-weight-bold">THG</p>
         <img style="height: 36px" src="/Mel-Signature.svg" />
       </div>
     </b-container>
@@ -111,7 +113,7 @@ export default {
 }
 .title {
   font-family: "komik";
-  font-size: 32px;
+  font-size: 3rem;
 }
 .shit {
   padding-top: 2rem;

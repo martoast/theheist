@@ -59,7 +59,7 @@
 
 .about {
   font-family: "komik";
-  font-size: 22px;
+  font-size: 2rem;
 }
 
 /*
