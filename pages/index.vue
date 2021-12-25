@@ -682,8 +682,8 @@ export default {
   }
 
   .social-actions {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
   }
 
   /* Bottom right text */
@@ -756,8 +756,8 @@ export default {
   }
 
   .social-actions {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     display: none;
   }
 
@@ -829,8 +829,8 @@ export default {
   }
 
   .social-actions {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
   }
 
   .social-actions-mobile {
@@ -904,8 +904,8 @@ export default {
   }
 
   .social-actions {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
   }
 
   .social-actions-mobile {

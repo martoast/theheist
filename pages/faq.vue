@@ -7,7 +7,7 @@
         </b-col>
       </b-row>
       <div class="about text-white pt-3 pt-md-4">
-        <h2 class="font-weight-bold">What is The Heist?</h2>
+        <h2 class="font-weight-bold text-danger">What is The Heist?</h2>
         <p>
           The first limited collection of unique 10,000 NFT tokens, a Union of
           Female Robbers and heist specialists inside the ultimate MetaVerse
@@ -18,29 +18,29 @@
           from poverty, and the strict laws of their Government.
         </p>
         
-        <h2 class="font-weight-bold">Are these identities rare?</h2>
+        <h2 class="font-weight-bold text-danger">Are these identities rare?</h2>
         <p>
             Yes, absolutely! Each identity is unique and specially curated for The Heist. The Heist Identities are generated algorithmically from 198 unique traits, such as hairstyles, accessories, clothing, and much more. All Identities are amazing at hiding who you are , but some are quite rare and unique..
         </p>
 
-        <h2 class="font-weight-bold">How much does an Identity cost?</h2>
+        <h2 class="font-weight-bold text-danger">How much does an Identity cost?</h2>
         <p>0.11 ETH + gas (no bonding curve or FOMO pricing).</p>
 
-        <h2 class="font-weight-bold">When Does the Sale start?</h2>
+        <h2 class="font-weight-bold text-danger">When Does the Sale start?</h2>
         <p>The time and date will be revealed soon, make sure to follow our social media updates so you don't miss it.</p>
 
-        <h2 class="font-weight-bold">How can I get a Heist Identity?</h2>
+        <h2 class="font-weight-bold text-danger">How can I get a Heist Identity?</h2>
         <p>
             THG tokens will be available for purchase on our website through an initial sale. At the time of purchase, a randomly selected Identity will be minted ‘unrevealed’ on the blockchain and delivered to your wallet and Opensea account. On the reveal day, we will be setting the real metadata live and users will be able to 'refresh metadata' on #opensea to see their revealed Heist Identity!!
         </p>
 
-        <h2 class="font-weight-bold">How do I actually purchase a Heist Identity?</h2>
+        <h2 class="font-weight-bold text-danger">How do I actually purchase a Heist Identity?</h2>
         <p>
             Download the Metamask extension for Google Chrome. Buy Ethereum (ETH) on an exchange like Coinbase, Binance, PayPal, etc, and send it to your Metamask ETH Wallet Public Address. Connect your Metamask Wallet to our website by clicking on the
             Chrome extension icon at the top-right of the browser (it looks like a Fox) while on our website. Click “Buy Now” on our website and approve the transaction on Metamask.
         </p>
 
-        <h2 class="font-weight-bold">What can we use the identity for?</h2>
+        <h2 class="font-weight-bold text-danger">What can we use the identity for?</h2>
         <p>This journey is unpredictable. Who knows where it will lead. We have so many plans! But the biggest one is to join the metaverse and buy land to create our headquarters. For now please look for our road map to get more specific information on the coming year. We can’t wait to grow with you.</p> 
         
       </div>

@@ -25,6 +25,7 @@
         <ul id="menu">
           <a href="/"><p class="about text-white">Home</p></a>
           <a href="/about-us"><p class="about text-white">About</p></a>
+          <a href="/roadmap"><p class="about text-white">Roadmap</p></a>
           <a href="/faq"><p class="about text-white">FAQ</p></a>
         </ul>
       </div>
