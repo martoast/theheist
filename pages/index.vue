@@ -56,8 +56,11 @@
                 </b-col>
               </b-row>
 
-              <b-button pill class="enter-btn border-0"
-                >PUBLIC SALE COMING SOON</b-button
+              <b-button
+                href="//mint.theheist.world"
+                pill
+                class="enter-btn border-0"
+                >PRESALE LIVE !</b-button
               >
             </div>
           </div>
