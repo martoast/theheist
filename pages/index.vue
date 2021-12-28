@@ -56,14 +56,11 @@
                 </b-col>
               </b-row>
 
-              <!-- <b-button
+              <b-button
                 href="//mint.theheist.world"
                 pill
                 class="enter-btn border-0"
                 >PRESALE LIVE !</b-button
-              > -->
-              <b-button pill class="enter-btn border-0"
-                >PRESALE COMING SOON</b-button
               >
             </div>
           </div>
