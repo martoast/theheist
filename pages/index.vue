@@ -6,7 +6,7 @@
           <div class="flex-grow-1"></div>
 
           <b-navbar class="nav" toggleable="sm">
-            <b-nav-item class="social-actions"
+            <b-nav-item href="//discord.gg/f4PTthWx" class="social-actions"
               ><img src="/OPENSEA.svg"
             /></b-nav-item>
             <b-nav-item
@@ -69,7 +69,9 @@
       <b-row align-h="between" class="px-4">
         <b-col cols="auto" class="mr-auto p-3">
           <div class="terms" style="text-decoration: underline">
-            THE HEIST TERMS & CONDITIONS
+            <nuxt-link to="/terms" class="text-white"
+              >THE HEIST TERMS & CONDITIONS</nuxt-link
+            >
           </div>
           <div class="terms">2021 THE HEIST ™</div>
         </b-col>
