@@ -38,7 +38,9 @@
               <b-row>
                 <b-col>
                   <b-navbar class="nav" style="justify-content: center">
-                    <b-nav-item class="social-actions-mobile"
+                    <b-nav-item
+                      href="//discord.gg/theheistworld"
+                      class="social-actions-mobile"
                       ><img src="/OPENSEA.svg"
                     /></b-nav-item>
 
