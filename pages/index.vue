@@ -6,7 +6,9 @@
           <div class="flex-grow-1"></div>
 
           <b-navbar class="nav" toggleable="sm">
-            <b-nav-item href="//discord.gg/f4PTthWx" class="social-actions"
+            <b-nav-item
+              href="//discord.gg/invite/theheistworld"
+              class="social-actions"
               ><img src="/OPENSEA.svg"
             /></b-nav-item>
             <b-nav-item
