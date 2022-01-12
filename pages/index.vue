@@ -39,7 +39,7 @@
                 <b-col>
                   <b-navbar class="nav" style="justify-content: center">
                     <b-nav-item
-                      href="//discord.gg/theheistworld"
+                      href="//discord.com/invite/theheistworld"
                       class="social-actions-mobile"
                       ><img src="/OPENSEA.svg"
                     /></b-nav-item>
