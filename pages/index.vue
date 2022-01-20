@@ -77,7 +77,7 @@
               >THE HEIST TERMS & CONDITIONS</nuxt-link
             >
           </div>
-          <div class="terms">2021 THE HEIST ™</div>
+          <div class="terms">2022 THE HEIST ™</div>
         </b-col>
         <b-col cols="auto" class="ml-auto p-3"
           ><img style="height: 36px" src="/Mel-Signature.svg"
