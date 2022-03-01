@@ -1,18 +1,19 @@
 <template>
   <div class="bg-secondary">
-    <div>
-      <b-row  style="height: 100vh">
-        <b-col  cols="12" md="6" sm="12">
-          
-        </b-col>
-        <b-col  cols="12" md="6" sm="12">
-          <div style="position: absolute; right: 3rem; z-index: 100">
+      <div style="position: absolute; right: 3rem; z-index: 100">
             <img style="width: 3rem;" class="mx-2" src="/TWITTER.svg"></img>
             <img style="width: 3rem;" class="mx-2" src="/IG.svg"></img>
             <img style="width: 3rem;" class="mx-2" src="/OPENSEA.svg"></img>
             <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
             
           </div>
+    <div>
+      <b-row  style="height: 100vh">
+        <b-col  cols="12" md="6" sm="12">
+          
+        </b-col>
+        <b-col  cols="12" md="6" sm="12">
+          
         </b-col>
       </b-row>
     </div>
@@ -151,7 +152,7 @@
 
     <b-container fluid class="bg-dark">
          <b-row align-h="between" class="px-4">
-        <b-col cols="auto" class="mr-auto p-3">
+        <b-col cols="12" md="6" sm="12" class="mr-auto p-3">
           <div class="terms" style="text-decoration: underline">
             <nuxt-link to="/terms" class="text-white"
               >THE HEIST TERMS & CONDITIONS</nuxt-link
@@ -159,7 +160,7 @@
           </div>
           <div class="terms">2022 THE HEIST ™</div>
         </b-col>
-        <b-col cols="auto" class="ml-auto p-3"
+        <b-col cols="12" md="auto" class="ml-auto p-3"
           ><img style="height: 36px" src="/Mel-Signature.svg"
         /></b-col>
       </b-row>
@@ -169,23 +170,16 @@
 </template>
 <script>
 export default {
-    head () {
-    return {
-      bodyAttrs: {
-        class: 'reset-body'
-      }
-    }
-  }
+   
 };
 </script>
 <style scoped>
-
-.reset-body {
-  margin: 0
-}
 
 .terms {
     font-family: "Champange";
     font-size: 16px;
   }
+
+
+
 </style>
