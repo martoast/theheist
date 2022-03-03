@@ -212,7 +212,7 @@
                </p>
             </b-col>
             <b-col  cols="12" md="6" sm="12">
-               <div class="p-4">
+               <div class="d-none d-md-block py-4">
                   <b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"></b-img>
                </div>
             </b-col>
@@ -242,7 +242,7 @@
          </b-row>
       </b-container>
 
-      <b-container class="pb-4">
+      <b-container class="py-4">
          <h2 class="text-center text-white pb-2" style="font-family: 'Komik'; font-size: 42px;">Meet the Team</h2>
          <meet-team></meet-team>
 

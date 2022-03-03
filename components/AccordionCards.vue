@@ -23,10 +23,6 @@
               of Female Robbers and heist specialists inside the ultimate
               MetaVerse governed by the THG (The Heist Group)
             </p>
-            <p style="font-family: 'Champange'">
-              A committee of all women that broke free from the rules of
-              society, from poverty, and the strict laws of their Government.
-            </p>
           </b-card-text>
         </b-card-body>
       </b-collapse>
