@@ -34,7 +34,7 @@
                   </b-button>
                   <div class="ml-4">
                      <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-white">100% Hand drawn layers</div>
-                     <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist</div>
+                     <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist.</div>
                   </div>
                </div>
             </b-col>
@@ -79,7 +79,7 @@
                   <b-row>
                      <b-col class="ml-4">
                         <div style="font-family: 'Komik'; font-size: 28px;">Member only access</div>
-                        <div style="font-family: 'Champange'; font-size: 22px;">Gain access to member exclusive Merch, Auctions, Giveaways and more!</div>
+                        <div style="font-family: 'Champange'; font-size: 22px;">Gain access to member exclusive merch, auctions, giveaways and more!</div>
                      </b-col>
                   </b-row>
                </div>
@@ -108,7 +108,7 @@
                   overlay
                   ></b-card>
                <b-card
-                  img-src="/images/gallery/7811.png"
+                  img-src="/images/gallery/5211.png"
                   img-alt="Image"
                   class="border-0"
                   overlay
@@ -143,60 +143,9 @@
                   class="border-0"
                   overlay
                   ></b-card>
-               <b-card
-                  img-src="/images/gallery/36.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/5109.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/5211.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/5406.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/5812.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/7596.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/7779.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/7798.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/7808.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
+               
+               
+               
             </b-card-group>
          </div>
       </b-container>
@@ -211,17 +160,20 @@
                   These girls are an extension of herself as an individual, her experiences, her evolution as an artist and as a woman. Carrying the stories of women and the power that comes with it. 
                </p>
             </b-col>
-            <b-col  cols="12" md="6" sm="12">
+            <b-col cols="12" md="6" sm="12">
                <div class="d-none d-md-block py-4">
                   <b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"></b-img>
+               </div>
+               <div class="d-block d-md-none py-4">
+                  <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
                </div>
             </b-col>
          </b-row>
       </b-container>
 
-      <b-container fluid class="py-4 text-white">
+      <b-container fluid class="py-4 d-none d-md-block text-white">
          <b-row align-v="center">
-            <b-col  cols="12" md="6" sm="12">
+            <b-col class="p-0" cols="12" md="6" sm="12">
                 <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
             </b-col>
             <b-col  cols="12" md="6" sm="12">
@@ -236,7 +188,7 @@
                   Some say that thousands of them are all dressed in different attire when seen in person, others think it is the same 3 girls doing it all. Legend has it, by the time the local authorities are to be contacted for help, a cloud of dust is seen out of the building. Some have ideas of what they look like, and others say it is all a myth. Not only are these women professional bank robbers, jewelry thieves, and hijackers on a block chain, they plan to expand inside of the METAVERSE It is believed they run the largest Crime Union on the Western Hemisphere called the Heist Group and they are looking for expansion! 
                </p>
                <p style="font-family: 'Champange';" class="px-5">
-                 But like they say in the Papers- “It may all just be a myth”
+                 But like they say in the Papers- “It may all just be a myth”...
                </p>
             </b-col>
          </b-row>
@@ -255,7 +207,7 @@
                 <accordion-cards></accordion-cards>
             </b-col>
             <b-col cols="12" md="6" sm="12">
-               <div class="p-4 d-none d-md-block">
+               <div class="d-none d-md-block" style="padding-top:2.5rem; padding-bottom:2.5rem;">
                   <b-img src="/MINTING-BUTTON (1).jpg" fluid alt="Responsive image"></b-img>
                </div>
             </b-col>
@@ -292,7 +244,7 @@ export default {
    
 };
 </script>
-<style scoped>
+<style>
 
 @font-face {
   font-family: "Abys";
