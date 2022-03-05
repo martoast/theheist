@@ -86,7 +86,7 @@
             </b-col>
          </b-row>
       </b-container>
-      <b-container class="py-3">
+      <b-container class="py-5">
          <div>
             <b-card-group columns>
                <b-card
@@ -162,7 +162,7 @@
             </b-col>
             <b-col cols="12" md="6" sm="12">
                <div class="py-4">
-                  <b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"></b-img>
+                  <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
                </div>
                
             </b-col>
@@ -171,7 +171,7 @@
 
       <b-container fluid class="py-4 text-white">
          <b-row align-v="center">
-            <b-col class="p-0" cols="12" md="6" sm="12">
+            <b-col class="mt-5" cols="12" md="6" sm="12">
                 <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
             </b-col>
             <b-col  cols="12" md="6" sm="12">
@@ -198,7 +198,7 @@
 
       </b-container>
 
-       <b-container class="py-5">
+       <b-container class="py-2 py-md-5">
          <b-row align-v="center" style="height: 55vh">
             <b-col  cols="12" md="6" sm="12">
               <h2 class="text-center text-white pb-2" style="font-family: 'Komik'; font-size: 42px;">Q & A</h2>
