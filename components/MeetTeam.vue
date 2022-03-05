@@ -3,7 +3,7 @@
     <b-card-group class="text-white" deck>
       <b-card
         style="background-color: #000 !important"
-        img-src="/kike.jpeg"
+        img-src="/Mel.png"
         img-alt="Image"
         img-top
       >
@@ -19,7 +19,7 @@
 
       <b-card
         style="background-color: #000 !important"
-        img-src="/kike.jpeg"
+        img-src="/kike.png"
         img-alt="Image"
         img-top
       >
@@ -27,15 +27,15 @@
           >Mastermind</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
-          The main reason we are all here. I blame him for me not sleeping the
-          last 3 months. He is the one who convinced me in OCTOBER of 2021 to
-          start this journey. He has been the glue that has kept us together.
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This card has even longer content than the
+          first to show that equal height action.
         </b-card-text>
       </b-card>
 
       <b-card
         style="background-color: #000 !important"
-        img-src="/amartos.jpeg"
+        img-src="/Alex.png"
         img-alt="Image"
         img-top
       >
@@ -52,7 +52,7 @@
 
       <b-card
         style="background-color: #000 !important"
-        img-src="/Ash.jpeg"
+        img-src="/Ash.png"
         img-alt="Image"
         img-top
       >

@@ -192,13 +192,13 @@
          </b-row>
       </b-container>
 
-      <b-container class="py-4">
+      <b-container class="py-5">
          <h2 class="text-center text-white pb-4" style="font-family: 'Komik'; font-size: 42px;">Meet the Team</h2>
          <meet-team></meet-team>
 
       </b-container>
 
-       <b-container class="py-2 py-md-5">
+       <b-container style="padding-top:2.5rem; padding-bottom:13rem">
          <b-row align-v="center" style="height: 55vh">
             <b-col  cols="12" md="6" sm="12">
               <h2 class="text-center text-white pb-2" style="font-family: 'Komik'; font-size: 42px;">Q & A</h2>
