@@ -22,9 +22,9 @@
       </b-row>
       <div class="d-none d-md-block background-color: #000 !important">
       </div>
-      <b-container fluid class="text-white" style="padding-top:8rem; padding-bottom:8rem; padding-left:4rem; padding-right:4rem">
+      <b-container fluid class="text-white" style="padding-top:6rem; padding-bottom:8rem; padding-left:4rem; padding-right:4rem">
          <b-row align-h="center"  align-v="center" no-gutters>
-            <b-col md="4" cols="12">
+            <b-col class="py-4" md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -33,12 +33,12 @@
                      >
                   </b-button>
                   <div class="ml-4">
-                     <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-white">100% Hand drawn layers</div>
+                     <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-white">100% Hand Drawn Layers</div>
                      <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist.</div>
                   </div>
                </div>
             </b-col>
-            <b-col md="4" cols="12">
+            <b-col class="py-4" md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -55,13 +55,13 @@
                   </b-button>
                   <b-row>
                      <b-col class="ml-4">
-                        <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-gray">All are unique</div>
-                        <div style="font-family: 'Champange'; font-size: 22px;">Over 100+ different traits each with their own rarity.</div>
+                        <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-gray">Every Identity Is Unique</div>
+                        <div style="font-family: 'Champange'; font-size: 22px;">Created from a combination of over 100 different traits with varying rarity.</div>
                      </b-col>
                   </b-row>
                </div>
             </b-col>
-            <b-col md="4" cols="12">
+            <b-col class="py-4" md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -78,7 +78,7 @@
                   </b-button>
                   <b-row>
                      <b-col class="ml-4">
-                        <div style="font-family: 'Komik'; font-size: 28px;">Member only access</div>
+                        <div style="font-family: 'Komik'; font-size: 28px;">Member Only Access</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Gain access to member exclusive merch, auctions, giveaways and more!</div>
                      </b-col>
                   </b-row>
@@ -86,7 +86,7 @@
             </b-col>
          </b-row>
       </b-container>
-      <b-container class="pt-3">
+      <b-container class="py-3">
          <div>
             <b-card-group columns>
                <b-card
@@ -161,23 +161,21 @@
                </p>
             </b-col>
             <b-col cols="12" md="6" sm="12">
-               <div class="d-none d-md-block py-4">
+               <div class="py-4">
                   <b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"></b-img>
                </div>
-               <div class="d-block d-md-none py-4">
-                  <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
-               </div>
+               
             </b-col>
          </b-row>
       </b-container>
 
-      <b-container fluid class="py-4 d-none d-md-block text-white">
+      <b-container fluid class="py-4 text-white">
          <b-row align-v="center">
             <b-col class="p-0" cols="12" md="6" sm="12">
                 <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
             </b-col>
             <b-col  cols="12" md="6" sm="12">
-               <h2 class="text-center py-3" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
+               <h2 class="text-center pt-5 pb-3" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
                <p style="font-family: 'Champange';" class="px-5">
                   The Heist Group consists of 3 women who find themselves at a crossroad. A drunk and impulsive night turned into risking everything they have and moving across the country in an attempt to change their lives. Little did they know how much their lives would actually change. Between terrible decisions and awful money management they find themselves having to choose between options.. Continuing down the straight and narrow path, or getting into a life of crime. The choice is made for them when they accidentally (but almost by choice) kill a friend’s A$$hole boyfriend. After this horrific incident- there is no turning back.
                </p>
@@ -195,7 +193,7 @@
       </b-container>
 
       <b-container class="py-4">
-         <h2 class="text-center text-white pb-2" style="font-family: 'Komik'; font-size: 42px;">Meet the Team</h2>
+         <h2 class="text-center text-white pb-4" style="font-family: 'Komik'; font-size: 42px;">Meet the Team</h2>
          <meet-team></meet-team>
 
       </b-container>
@@ -216,8 +214,8 @@
 
      
       <b-container fluid class="bg-dark text-center">
-         <b-row align-v="center">
-            <b-col cols="12" md="auto" sm="12" class="mr-auto p-5">
+         <b-row class="p-4" align-v="center">
+            <b-col cols="12" md="auto" sm="12" class="mr-auto p-3 px-md-5">
                <div class="terms" style="text-decoration: underline">
                   <nuxt-link to="/terms" class="text-white"
                      >THE HEIST TERMS & CONDITIONS</nuxt-link
@@ -225,7 +223,7 @@
                </div>
                <div class="terms text-danger">2022 THE HEIST ™</div>
             </b-col>
-            <b-col cols="12" md="auto" sm="12" class="ml-auto p-3"
+            <b-col cols="12" md="auto" sm="12" class="ml-auto "
                ><img style="height: 54px" src="/Mel-Signature.svg"
                /></b-col>
          </b-row>
@@ -240,7 +238,9 @@ export default {
     AccordionCards,
     MeetTeam
  
-  }
+  },
+  
+//   layout: "main",
    
 };
 </script>

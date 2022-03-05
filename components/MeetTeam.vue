@@ -1,7 +1,12 @@
 <template>
   <div>
-    <b-card-group deck>
-      <b-card img-src="/kike.jpeg" img-alt="Image" img-top>
+    <b-card-group class="text-white" deck>
+      <b-card
+        style="background-color: #000 !important"
+        img-src="/kike.jpeg"
+        img-alt="Image"
+        img-top
+      >
         <b-card-title style="font-family: 'Komik'; font-size: 34px"
           >MGMS aka "GOD"</b-card-title
         >
@@ -12,7 +17,12 @@
         </b-card-text>
       </b-card>
 
-      <b-card img-src="/kike.jpeg" img-alt="Image" img-top>
+      <b-card
+        style="background-color: #000 !important"
+        img-src="/kike.jpeg"
+        img-alt="Image"
+        img-top
+      >
         <b-card-title style="font-family: 'Komik'; font-size: 34px"
           >Mastermind</b-card-title
         >
@@ -23,7 +33,12 @@
         </b-card-text>
       </b-card>
 
-      <b-card img-src="/amartos.jpeg" img-alt="Image" img-top>
+      <b-card
+        style="background-color: #000 !important"
+        img-src="/amartos.jpeg"
+        img-alt="Image"
+        img-top
+      >
         <b-card-title style="font-family: 'Komik'; font-size: 34px"
           >The Hacker</b-card-title
         >
@@ -35,7 +50,12 @@
         </b-card-text>
       </b-card>
 
-      <b-card img-src="/Ash.jpeg" img-alt="Image" img-top>
+      <b-card
+        style="background-color: #000 !important"
+        img-src="/Ash.jpeg"
+        img-alt="Image"
+        img-top
+      >
         <b-card-title style="font-family: 'Komik'; font-size: 34px"
           >WingWoman</b-card-title
         >
