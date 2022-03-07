@@ -170,7 +170,7 @@
             </b-card-group>
          </div>
       </b-container>
-      <b-container fluid class="py-5 text-white">
+      <b-container fluid class="py-3 py-md-5 text-white">
          <b-row align-v="center" style="height: 55vh">
             <b-col  cols="12" md="6" sm="12">
                <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">About the Artist</h2>
