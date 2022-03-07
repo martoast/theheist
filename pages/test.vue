@@ -88,7 +88,7 @@
       </b-container>
       <b-container class="py-5">
          <div>
-            <b-card-group columns>
+            <b-card-group class="d-none d-md-block" columns>
                <b-card
                   img-src="/images/gallery/7818.png"
                   img-alt="Image"
@@ -145,6 +145,27 @@
                   ></b-card>
                
                
+               
+            </b-card-group>
+            <b-card-group class="d-block d-md-none" columns>
+               <b-card
+                  img-src="/images/gallery/7818.png"
+                  img-alt="Image"
+                  class="border-0"
+                  overlay
+                  ></b-card>
+               <b-card
+                  img-src="/images/gallery/5211.png"
+                  img-alt="Image"
+                  class="border-0"
+                  overlay
+                  ></b-card>
+               <b-card
+                  img-src="/images/gallery/88.png"
+                  img-alt="Image"
+                  class="border-0"
+                  overlay
+                  ></b-card>
                
             </b-card-group>
          </div>
