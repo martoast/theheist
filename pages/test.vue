@@ -42,7 +42,7 @@
       <b-container fluid class="text-white py-5 px-5" >
          
          <b-row align-h="center"  align-v="center" no-gutters>
-            <b-col md="4" cols="12">
+            <b-col class="py-5" md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -56,7 +56,7 @@
                   </div>
                </div>
             </b-col>
-            <b-col md="4" cols="12">
+            <b-col class="py-5" md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -79,7 +79,7 @@
                   </b-row>
                </div>
             </b-col>
-            <b-col md="4" cols="12">
+            <b-col class="py-5" md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -214,13 +214,13 @@
          </b-row>
       </b-container>
 
-      <b-container fluid class="py-4 text-white">
+      <b-container fluid class="py-5 text-white">
          <b-row align-v="center">
             <b-col class="mt-5" cols="12" md="6" sm="12">
                 <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
             </b-col>
-            <b-col  cols="12" md="6" sm="12">
-               <h2 class="text-center pt-5 pb-3" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
+            <b-col class="py-5"  cols="12" md="6" sm="12">
+               <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
                <p style="font-family: 'Champange';" class="px-5">
                   The Heist Group consists of 3 women who find themselves at a crossroad. A drunk and impulsive night turned into risking everything they have and moving across the country in an attempt to change their lives. Little did they know how much their lives would actually change. Between terrible decisions and awful money management they find themselves having to choose between options.. Continuing down the straight and narrow path, or getting into a life of crime. The choice is made for them when they accidentally (but almost by choice) kill a friend’s A$$hole boyfriend. After this horrific incident- there is no turning back.
                </p>
