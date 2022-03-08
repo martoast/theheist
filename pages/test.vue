@@ -37,8 +37,11 @@
          background-size: cover;
          background-position: center;">
       </b-row>
-      <div class="d-none d-md-block background-color: #000 !important">
+
+      <div class="d-none d-md-block" style="position: absolute; right: 49%; bottom: 3.5rem; z-index: 100">
+         <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
       </div>
+      
       <b-container fluid class="text-white py-5 px-5" >
          
          <b-row align-h="center"  align-v="center" no-gutters>
