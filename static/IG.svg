@@ -7,13 +7,7 @@
 	.st1{fill:#ED1C24;}
 	.st2{fill:#F0EFEF;}
 </style>
-<g>
-	<rect x="-993.61" y="672.77" class="st0" width="448.86" height="102.86"/>
-	<path class="st1" d="M-547.33,675.34v97.71h-443.71v-97.71H-547.33 M-542.18,670.2h-454v108h454V670.2L-542.18,670.2z"/>
-</g>
-<g>
-	<text transform="matrix(1 0 0 1 -875.4598 714.3147)"><tspan x="0" y="0" style="fill:#010101; font-family:'Abys-Regular'; font-size:39.5088px;">ABYS FONT</tspan><tspan x="0" y="47.41" style="fill:#010101; font-family:'Abys-Regular'; font-size:39.5088px;">size: 40.3993</tspan></text>
-</g>
+
 <g>
 	<path class="st2" d="M25.43,24.6c0,0.08,0,0.42,0.01,1.03c0.01,0.44,0.01,0.79,0,1.06c-0.04,0.8-0.18,1.32-0.44,1.58
 		c-0.03,0.03-0.07,0.06-0.11,0.08c0.03,0.44-0.06,1.08-0.25,1.9c0.02,0.03,0.06,0.95,0.11,2.78c0.01,0.07,0.02,0.16,0.04,0.3
