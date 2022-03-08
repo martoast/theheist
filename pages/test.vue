@@ -1,16 +1,33 @@
 <template>
    <div style="background-color: #000 !important">
       <div class="d-none d-md-block" style="position: absolute; right: 3.5rem; top:2.5rem; z-index: 100">
-         <img style="width: 3rem;" class="mx-2" src="/TWITTER.svg"></img>
-         <img style="width: 3rem;" class="mx-2" src="/IG.svg"></img>
-         <img style="width: 3rem;" class="mx-2" src="/OPENSEA.svg"></img>
-         <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
+         <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
+            <img style="width: 3rem;" class="mx-2" src="/TWITTER.svg"></img>
+         </b-btn>
+         <b-btn class="p-0" href="//instagram.com/theheist.world" variant="link">
+            <img style="width: 3rem;" class="mx-2" src="/IG.svg"></img>
+         </b-btn>
+         <b-btn class="p-0" href="//discord.com/invite/theheistworld" variant="link">
+            <img style="width: 3rem;" class="mx-2" src="/OPENSEA.svg"></img>
+         </b-btn>
+         <b-btn class="p-0" href="//etherscan.io/address/0xcF8009F8E3446296d02B63d43E8066D130ce27B3" variant="link">
+            <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
+         </b-btn>
+         
       </div>
       <div class="d-block d-md-none" style="position: absolute;top: 15%; left:16.5%">
-         <img style="width: 3rem;" class="mx-2" src="/TWITTER.svg"></img>
-         <img style="width: 3rem;" class="mx-2" src="/IG.svg"></img>
-         <img style="width: 3rem;" class="mx-2" src="/OPENSEA.svg"></img>
-         <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
+         <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
+            <img style="width: 3rem;" class="mx-2" src="/TWITTER.svg"></img>
+         </b-btn>
+         <b-btn class="p-0" href="//instagram.com/theheist.world" variant="link">
+            <img style="width: 3rem;" class="mx-2" src="/IG.svg"></img>
+         </b-btn>
+         <b-btn class="p-0" href="//discord.com/invite/theheistworld" variant="link">
+            <img style="width: 3rem;" class="mx-2" src="/OPENSEA.svg"></img>
+         </b-btn>
+         <b-btn class="p-0" href="//etherscan.io/address/0xcF8009F8E3446296d02B63d43E8066D130ce27B3" variant="link">
+            <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
+         </b-btn>
       </div>
       <b-row class="d-none d-md-block" align-v="center" style="height: 100vh; background-image: url('/motelhq.gif');  background-repeat: no-repeat;
          background-size: cover;
