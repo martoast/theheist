@@ -15,7 +15,7 @@
          </b-btn>
          
       </div>
-      <div class="d-block d-md-none" style="position: absolute;top: 15%; left:16.5%">
+      <div class="d-block d-md-none" style="position: absolute;top: 15%; left:13.5%">
          <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
             <img style="width: 3rem;" class="mx-2" src="/TWITTER.svg"></img>
          </b-btn>
