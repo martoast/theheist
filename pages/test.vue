@@ -39,9 +39,10 @@
       </b-row>
       <div class="d-none d-md-block background-color: #000 !important">
       </div>
-      <b-container fluid class="text-white" style="padding-top:6rem; padding-bottom:8rem; padding-left:4rem; padding-right:4rem">
+      <b-container fluid class="text-white py-5 px-5" >
+         
          <b-row align-h="center"  align-v="center" no-gutters>
-            <b-col class="py-4" md="4" cols="12">
+            <b-col md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -55,7 +56,7 @@
                   </div>
                </div>
             </b-col>
-            <b-col class="py-4" md="4" cols="12">
+            <b-col md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -78,7 +79,7 @@
                   </b-row>
                </div>
             </b-col>
-            <b-col class="py-4" md="4" cols="12">
+            <b-col md="4" cols="12">
                <div class="d-flex" style="align-items: center">
                   <b-button
                      rounded
@@ -104,6 +105,7 @@
          </b-row>
       </b-container>
       <b-container class="py-5">
+         <h2 class="text-center text-white py-3" style="font-family: 'Komik'; font-size: 42px;">The Gallery</h2>
          <div>
             <b-card-group class="d-none d-md-block" columns>
                <b-card
