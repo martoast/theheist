@@ -12,7 +12,7 @@
          <img style="width: 3rem;" class="mx-2" src="/OPENSEA.svg"></img>
          <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
       </div>
-      <b-row class="d-none d-md-block" align-v="center" style="height: 100vh; background-image: url('/landing.jpg');  background-repeat: no-repeat;
+      <b-row class="d-none d-md-block" align-v="center" style="height: 100vh; background-image: url('/motelhq.gif');  background-repeat: no-repeat;
          background-size: cover;
          background-position: center;">
       </b-row>
@@ -147,45 +147,50 @@
                
                
             </b-card-group>
-            <b-card-group class="d-block d-md-none" columns>
-               <b-card
-                  img-src="/images/gallery/7818.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/5211.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               <b-card
-                  img-src="/images/gallery/88.png"
-                  img-alt="Image"
-                  class="border-0"
-                  overlay
-                  ></b-card>
-               
-            </b-card-group>
+            <div class="d-block d-md-none">
+               <b-carousel
+      id="carousel-1"
+      :interval="4000"
+      controls
+      indicators
+      img-width="1024"
+      img-height="480"      
+    >
+   
+      <b-carousel-slide img-src="/images/gallery/5406.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/7818.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/5812.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/1356.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/7812.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/0.jpeg"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/7779.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/5211.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/88.png"></b-carousel-slide>
+      
+
+    </b-carousel>
+
+            </div>
+            
          </div>
       </b-container>
       <b-container fluid class="py-3 py-md-5 text-white">
-         <b-row align-v="center" style="height: 55vh">
+         <b-row align-v="center">
             <b-col  cols="12" md="6" sm="12">
                <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">About the Artist</h2>
                <p style="font-family: 'Champange';" class="px-5">
-                  The Artist, Melanie Mercado has been working on these original girls for over a decade. Her originals, from pencil and markers were alter ego portraits evolved into calendars, and now the ultimate collection of NFTs.
+                  The Artist, Melanie Mercado has been developing this story, this universe for over 5 years. The original story and illustrations were done with markers and in the form of a comic book, recounting personal stories and fictional stories brought to life (and provoked) by real events. The Heist women are Alter Ego portraits turned, Calendar, turned comic book turned - THE ULTIMATE - NFT Collection.
                </p>
                <p style="font-family: 'Champange';" class="px-5">
-                  These girls are an extension of herself as an individual, her experiences, her evolution as an artist and as a woman. Carrying the stories of women and the power that comes with it. 
+                  These identities are an extension of herself as an individual, her experiences, rage, happiness, fantasies, her evolution as an artist and as a woman. Carrying the struggles of what women have to deal with and the power that comes with it and from it. 
+               </p>
+               <p style="font-family: 'Champange';" class="px-5">Welcome to The Heist.</p>
+               <p class="px-5">
+                  <img class="px-5" style="height: 38px" src="/Mel-Signature.svg" />
                </p>
             </b-col>
             <b-col cols="12" md="6" sm="12">
-               <div class="py-4">
-                  <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
-               </div>
-               
+                  <b-img class="py-5" src="/webmel.jpg" fluid></b-img>
             </b-col>
          </b-row>
       </b-container>
@@ -234,11 +239,11 @@
       </b-container>
 
      
-      <b-container fluid class="bg-dark text-center">
+      <b-container fluid class="bg-white text-center">
          <b-row class="p-4" align-v="center">
             <b-col cols="12" md="auto" sm="12" class="mr-auto p-3 px-md-5">
                <div class="terms" style="text-decoration: underline">
-                  <nuxt-link to="/terms" class="text-white"
+                  <nuxt-link to="/terms" class="text-dark"
                      >THE HEIST TERMS & CONDITIONS</nuxt-link
                      >
                </div>

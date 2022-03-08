@@ -11,9 +11,10 @@
           >MGMS aka "GOD"</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This card has even longer content than the
-          first to show that equal height action.
+          Fashion Designer by day, illustrator by night. Juggling the fashion
+          industry for over 11 yrs while creating a universe of illustrations in
+          her free time (and cutting into her sleep time- but then again… God
+          never sleeps)
         </b-card-text>
       </b-card>
 
@@ -43,8 +44,8 @@
           >The Hacker</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
-          <span>Alejandro Martos</span> is a Mexico based Software Engineer with
-          a love for technology and it's potential to disrupt paradigms. In his
+          <span>Alejandro Martos</span> is a Software Engineer with a love for
+          technology and it's potential to disrupt paradigms. In his
           professional work he has demonstrable experience developing and
           deploying complex web applications.
         </b-card-text>
