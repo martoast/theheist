@@ -28,9 +28,8 @@
           >Mastermind</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This card has even longer content than the
-          first to show that equal height action.
+          Enrique Marrero is the Executive Producer and Team Lead. Background in
+          Computer Programming, Web Design, and Platform Building.
         </b-card-text>
       </b-card>
 

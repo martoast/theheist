@@ -212,7 +212,7 @@
                </p>
             </b-col>
             <b-col cols="12" md="6" sm="12">
-                  <b-img class="py-5" src="/webmel.jpg" fluid></b-img>
+                  <b-img-lazy class="py-5" src="/webmel.jpg" fluid></b-img-lazy>
             </b-col>
          </b-row>
       </b-container>
