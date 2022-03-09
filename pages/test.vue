@@ -219,8 +219,8 @@
 
       <b-container fluid class="py-5 text-white">
          <b-row align-v="center">
-            <b-col class="mt-5" cols="12" md="6" sm="12">
-                <b-img src="/website-banner.jpg" fluid alt="Responsive image"></b-img>
+            <b-col  cols="12" md="6" sm="12">
+                <b-img src="/gasstation.jpg" fluid alt="Responsive image"></b-img>
             </b-col>
             <b-col class="py-5"  cols="12" md="6" sm="12">
                <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
