@@ -42,40 +42,29 @@
          <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
       </div>
       
-      <b-container fluid class="text-white py-5 px-5" >
+      <b-container fluid class="text-white text-center py-5 px-5" >
          
          <b-row align-h="center"  align-v="center" no-gutters>
             <b-col class="py-5" md="4" cols="12">
-               <div class="d-flex" style="align-items: center; justify-content: center;">
-                  <b-button
-                     rounded
-                     style="height: 3rem; width: 3rem"
-                     variant="dark"
-                     >
-                  </b-button>
-                  <div class="ml-4">
-                     <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-white">100% Hand Drawn Layers</div>
-                     <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist.</div>
-                  </div>
-               </div>
+               
+               <b-row>
+                     <b-col>
+                        <b-btn  class="p-0"  variant="link">
+                     <img style="max-width: 12rem;" class="mx-2" src="/Gas-Tank.png"></img>
+                  </b-btn>
+                        <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-gray">100% Hand Drawn Layers</div>
+                        <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist.</div>
+                     </b-col>
+                  </b-row>
             </b-col>
             <b-col class="py-5" md="4" cols="12">
-               <div class="d-flex" style="align-items: center; justify-content: center;">
-                  <b-button
-                     rounded
-                     style="height: 3rem; width: 3rem"
-                     variant="dark"
-                     >
-                     <b-icon
-                        stacked
-                        scale="0.5"
-                        icon="telephone-fill"
-                        variant="white"
-                        ></b-icon
-                        >
-                  </b-button>
+               <div style="align-items: center; justify-content: center;">
+                 
                   <b-row>
-                     <b-col class="ml-4">
+                     <b-col>
+                        <b-btn variant="link">
+                     <img style="max-width: 13rem;" class="mx-2" src="/popcorn.png"></img>
+                  </b-btn>
                         <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-gray">Every Identity Is Unique</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Created from a combination of over 100 different traits with varying rarity.</div>
                      </b-col>
@@ -83,22 +72,13 @@
                </div>
             </b-col>
             <b-col class="py-5" md="4" cols="12">
-               <div class="d-flex" style="align-items: center; justify-content: center;">
-                  <b-button
-                     rounded
-                     style="height: 3rem; width: 3rem"
-                     variant="dark"
-                     >
-                     <b-icon
-                        stacked
-                        scale="0.5"
-                        icon="chat-left-fill"
-                        variant="white"
-                        ></b-icon
-                        >
-                  </b-button>
+               <div style="align-items: center; justify-content: center;">
+                  
                   <b-row>
-                     <b-col class="ml-4">
+                     <b-col>
+                        <b-btn  class="p-0"  variant="link">
+                           <img style="max-width: 19rem;" class="mx-2" src="/keys.png"></img>
+                        </b-btn>
                         <div style="font-family: 'Komik'; font-size: 28px;">Member Only Access</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Gain access to member exclusive merch, auctions, giveaways and more!</div>
                      </b-col>
@@ -296,8 +276,8 @@ A committee of all women that broke free from the rules of society, from poverty
          <b-row class="p-4" align-v="center">
             <b-col cols="12" md="auto" sm="12" class="mr-auto p-3 px-md-5">
                <div class="terms" style="text-decoration: underline">
-                  <nuxt-link to="/terms" class="text-dark"
-                     >THE HEIST TERMS & CONDITIONS</nuxt-link
+                  <b-btn style="font-size: large; text-decoration: underline;" v-b-modal.modal-terms variant="link" class="text-dark"
+                     >THE HEIST TERMS & CONDITIONS</b-btn
                      >
                </div>
                <div class="terms text-danger">2022 THE HEIST ™</div>
@@ -307,6 +287,85 @@ A committee of all women that broke free from the rules of society, from poverty
                /></b-col>
          </b-row>
       </b-container>
+
+      <b-modal body-bg-variant="dark" size="lg" header-bg-variant="dark" header-close-variant="danger" header-border-variant="dark"  id="modal-terms" centered hide-footer>
+         <b-container fluid>
+          <h1 class="title text-white text-center">TERMS & CONDITIONS</h1>
+          <div class="about text-white pt-2 pt-md-4">
+        <p>
+          The Heist is a collection of digital artworks (NFTs) running on the
+          Ethereum network. This website is only an interface allowing
+          participants to exchange digital collectibles. Users are entirely
+          responsible for the safety and management of their own private
+          Ethereum wallets and validating all transactions and contracts
+          generated by this website before approval. Furthermore, as The Heist
+          smart contract runs on the Ethereum network, there is no ability to
+          undo, reverse, or restore any transactions.
+        </p>
+        <p>
+          This website and its connected services are provided “as is” and “as
+          available” without warranty of any kind. By using this website you are
+          accepting sole responsibility for any and all transactions involving
+          The Heist digital collectibles.
+        </p>
+        <h1 class="title text-center">OWNERSHIP</h1>
+        <ol type="I">
+          <li>
+            You Own the NFT. Each Identity* is an NFT on the Ethereum
+            blockchain. When you purchase an NFT, you own the underlying
+            Identity*, the Art, completely. Ownership of the NFT is mediated
+            entirely by the Smart Contract and the Ethereum Network: at no point
+            may we seize, freeze, or otherwise modify the ownership of any
+            Identity*.
+          </li>
+          <li>
+            Personal Use. Subject to your continued compliance with these Terms,
+            The Heist LLC grants you a worldwide, royalty-free license to use,
+            copy, and display the purchased Art, along with any extensions that
+            you choose to create or use, solely for the following purposes: (i)
+            for your own personal, non-commercial use; (ii) as part of a
+            marketplace that permits the purchase and sale of your Identity* /
+            NFT, provided that the marketplace cryptographically verifies each
+            Heist Identity* owner’s rights to display the Art for their Heist
+            Identity* to ensure that only the actual owner can display the Art;
+            or (iii) as part of a third party website or application that
+            permits the inclusion, involvement, or participation of your
+            Identity*, provided that the website/application cryptographically
+            verifies each The Heist Identity* owner’s rights to display the Art
+            for their Heist Identity* to ensure that only the actual owner can
+            display the Art, and provided that the Art is no longer visible once
+            the owner of The Heist Identity* leaves the website/application.
+          </li>
+          <li>
+            Other than the rights to the Art, nothing herein gives you any
+            rights to any other trademarks or other intellectual property rights
+            belonging to The Heist. All of these rights are expressly reserved
+            in the name of The Heist LLC.
+          </li>
+          <li>
+            Feedback. You may choose to submit comments, bug reports, ideas or
+            other feedback about the Site, including without limitation about
+            how to improve the Site (collectively, “Feedback”). By submitting
+            any Feedback, you agree that we are free to use such Feedback in any
+            way we choose without additional compensation to you and you hereby
+            grant us a perpetual, irrevocable, nonexclusive, worldwide license
+            to incorporate and use the Feedback for any purpose.
+          </li>
+        </ol>
+        <div class="d-flex">
+          <h3 class="font-weight-bold text-danger"><i>Identity</i></h3>
+          <p class="ml-3 pt-1">
+            is the term we use to describe the female form of your NFT. I mean,
+            you have to change your identity before a heist... right?
+          </p>
+        </div>
+      </div>
+    
+      </b-row>
+
+      
+    </b-container>
+      </b-modal>
    </div>
 </template>
 <script>
@@ -353,6 +412,18 @@ export default {
     font-family: "Champange";
     font-size: 18px;
   }
+
+.about {
+  font-family: "Champange";
+  font-size: 22px;
+}
+.title {
+  font-family: "komik";
+  font-size: 3rem;
+}
+.shit {
+  padding-top: 2rem;
+}
 
 
 
