@@ -60,8 +60,10 @@
           >WingWoman</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
-          She has taken her role as Marketing Director by the horns learning a
-          new skill and joining this world with the rest of us.
+          Ashley is Melanie's bestfriend and stusty WingWoman. She is a Realtor
+          by day who has taken the role as Marketing Director by the horns-
+          Learning a new skill, joining The Heist World with the rest of the
+          team.
         </b-card-text>
       </b-card>
     </b-card-group>
