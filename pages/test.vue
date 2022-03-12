@@ -15,32 +15,26 @@
          </b-btn>
          
       </div>
-      <div class="d-block d-md-none" style="position: absolute;top: 35%; left:19.5%">
-          <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
-            <img style="width: 2rem;" class="mx-2" src="/twitterlogo.svg"></img>
-         </b-btn>
-         <b-btn class="p-0" href="//discord.com/invite/theheistworld" variant="link">
-            <img style="width: 3rem;" class="mx-1" src="/OPENSEA.svg"></img>
-         </b-btn>
-         <b-btn class="p-0" href="//opensea.io/collection/the-heist-collection" variant="link">
-            <img style="max-width: 3rem;" class="mx-2" src="/opensea2.svg"></img>
-         </b-btn>
-         <b-btn class="p-0" href="//etherscan.io/address/0xcF8009F8E3446296d02B63d43E8066D130ce27B3" variant="link">
-            <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
-         </b-btn>
-      </div>
+     
       <b-row class="d-none d-md-block" align-v="center" style="height: 100vh; background-image: url('/motelhq.gif');  background-repeat: no-repeat;
          background-size: cover;
          background-position: center;">
+         
       </b-row>
       <b-row class="d-block d-md-none" align-v="center" style="height: 100vh; background-image: url('/mobilemotel.gif');  background-repeat: no-repeat;
          background-size: cover;
          background-position: center;">
+         
       </b-row>
 
       <div class="d-none d-md-block" style="position: absolute; right: 49%; bottom: 3.5rem; z-index: 100">
          <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
       </div>
+      <div class="d-block d-md-none" style="position: absolute; right: 42%; bottom: 2.5rem; z-index: 100">
+         <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
+      </div>
+
+      
       
       <b-container fluid class="text-white text-center py-5 px-5" >
          
@@ -273,7 +267,7 @@ A committee of all women that broke free from the rules of society, from poverty
 
      
       <b-container fluid class="bg-white text-center">
-         <b-row class="p-4" align-v="center">
+         <b-row class="p-4" align-v="center" align-h="center">
             <b-col cols="12" md="auto" sm="12" class="mr-auto p-3 px-md-5">
                <div class="terms" style="text-decoration: underline">
                   <b-btn style="font-size: large; text-decoration: underline;" v-b-modal.modal-terms variant="link" class="text-dark"
@@ -284,7 +278,23 @@ A committee of all women that broke free from the rules of society, from poverty
             </b-col>
             <b-col cols="12" md="auto" sm="12" class="ml-auto "
                ><img style="height: 54px" src="/Mel-Signature.svg"
-               /></b-col>
+               />
+                <div class="d-block d-md-none">
+                  <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
+                     <img style="width: 2rem;" class="mx-2" src="/mobile/twittermobile.svg"></img>
+                  </b-btn>
+                  <b-btn class="p-0" href="//discord.com/invite/theheistworld" variant="link">
+                     <img style="width: 3rem;" class="mx-1" src="/mobile/discordmobile.svg"></img>
+                  </b-btn>
+                  <b-btn class="p-0" href="//opensea.io/collection/the-heist-collection" variant="link">
+                     <img style="max-width: 3rem;" class="mx-2" src="/mobile/openseamobile.svg"></img>
+                  </b-btn>
+                  <b-btn class="p-0" href="//etherscan.io/address/0xcF8009F8E3446296d02B63d43E8066D130ce27B3" variant="link">
+                     <img style="max-width: 2rem;" class="mx-2" src="/mobile/etherscanmobile.svg"></img>
+                  </b-btn>
+               </div>
+               
+            </b-col>
          </b-row>
       </b-container>
 
