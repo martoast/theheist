@@ -15,7 +15,7 @@
          </b-btn>
          
       </div>
-      <div class="d-block d-md-none" style="position: absolute;top: 15%; left:18.5%">
+      <div class="d-block d-md-none" style="position: absolute;top: 35%; left:19.5%">
           <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
             <img style="width: 2rem;" class="mx-2" src="/twitterlogo.svg"></img>
          </b-btn>
@@ -33,7 +33,7 @@
          background-size: cover;
          background-position: center;">
       </b-row>
-      <b-row class="d-block d-md-none" align-v="center" style="height: 100vh; background-image: url('/landingmobile.jpg');  background-repeat: no-repeat;
+      <b-row class="d-block d-md-none" align-v="center" style="height: 100vh; background-image: url('/mobilemotel.gif');  background-repeat: no-repeat;
          background-size: cover;
          background-position: center;">
       </b-row>
