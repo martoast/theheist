@@ -198,7 +198,7 @@
          </b-row>
       </b-container>
 
-      <b-container fluid class="py-5 px-0 px-md-5 text-white">
+      <b-container fluid class="d-none d-md-block py-5 px-0 px-md-5 text-white">
          <b-row align-v="center">
             <b-col  cols="12" md="6" sm="12">
                <b-card
@@ -245,6 +245,54 @@ A committee of all women that broke free from the rules of society, from poverty
          </b-row>
       </b-container>
 
+      <b-container fluid class="d-block d-md-none py-5 px-0 px-md-5 text-white">
+         <b-row align-v="center">
+            <b-col class="py-5"  cols="12" md="6" sm="12">
+               <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  The Heist Group consists of 3 women who find themselves at a crossroad. A drunk and impulsive night turned into risking everything they have and moving across the country in an attempt to change their lives. Little did they know how much their lives would actually change. Between terrible decisions and awful money management they find themselves having to choose between options.. Continuing down the straight and narrow path, or getting into a life of crime. The choice is made for them when they accidentally (but almost by choice) kill a friend’s A$$hole boyfriend. After this horrific incident- there is no turning back.
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                 They start to plot and scheme their way into New York, robbing several gas stations and eventually a bank on the way.
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  The papers… ugh… the papers! They never seem to get it right. Some say that they wear masks because they are hiding something, others say they wear wigs and a bare face. OH! The horror- for who would believe 3 gorgeous 20 year old women would cause such a ruckus.
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  They breeze through the small towns unnoticed and uncaptured. Leaving nothing behind but a trail of empty cash registers and male bank tellers who piss their pants.
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  Once they arrive in New York they lay low, they try to get normal jobs and do normal things. But let's be honest- once you get a taste of the pie, you can never say no. And their stomachs are hungry, more hungry for bigger and better things, FASTER!- I mean, isn’t that what New York does to everyone?
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  They hit Atlantic City to hide all of the money they've collected… This is where The Heist Group was born.
+A committee of all women that broke free from the rules of society, from poverty, and the strict laws of their Government.
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  They created a union of 10,000 ruthless female trained escape artists, specialized in Heist Missions against this system. Spectators seem to only catch but a glimpse of the crimes they commit. Sly, prestigious but executing their plans precisely.
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  Some say that thousands of them are all dressed in different attire when seen in person, others think it is the same 3 girls doing it all. Legend has it, by the time the local authorities are to be contacted for help, a cloud of dust is seen out of the building. Some have ideas of what they look like, and others say it is all a myth. Not only are these women professional bank robbers, jewelry thieves, and hijackers on a block chain, they plan to expand inside of the METAVERSE It is believed they run the largest Crime Union on the Western Hemisphere called the Heist Group and they are looking for expansion! 
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                  It is believed they run the largest Crime Union on the Western Hemisphere called The Heist Group and they are looking for expansion! 
+               </p>
+               <p style="font-family: 'Champange';" class="px-2 px-md-3">
+                 But like they say in the Papers- “It may all just be a myth”...
+               </p>
+            </b-col>
+            <b-col  cols="12" md="6" sm="12">
+               <b-card
+                  img-src="/gasstation.jpg"
+                  img-alt="Image"
+                  class="border-0"
+                  overlay
+                  ></b-card>
+            </b-col>
+            
+         </b-row>
+      </b-container>
+
       <b-container class="py-5">
          <h2 class="text-center text-white pb-4" style="font-family: 'Komik'; font-size: 42px;">Meet the Team</h2>
          <meet-team></meet-team>
@@ -269,17 +317,7 @@ A committee of all women that broke free from the rules of society, from poverty
       <b-container fluid class="bg-white text-center">
          <b-row class="p-4" align-v="center" align-h="center">
             <b-col cols="12" md="auto" sm="12" class="mr-auto p-3 px-md-5">
-               <div class="terms" style="text-decoration: underline">
-                  <b-btn style="font-size: large; text-decoration: underline;" v-b-modal.modal-terms variant="link" class="text-dark"
-                     >THE HEIST TERMS & CONDITIONS</b-btn
-                     >
-               </div>
-               <div class="terms text-danger">2022 THE HEIST ™</div>
-            </b-col>
-            <b-col cols="12" md="auto" sm="12" class="ml-auto "
-               ><img style="height: 54px" src="/Mel-Signature.svg"
-               />
-                <div class="d-block d-md-none">
+               <div class="d-block d-md-none py-3">
                   <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
                      <img style="width: 2rem;" class="mx-2" src="/mobile/twittermobile.svg"></img>
                   </b-btn>
@@ -293,6 +331,17 @@ A committee of all women that broke free from the rules of society, from poverty
                      <img style="max-width: 2rem;" class="mx-2" src="/mobile/etherscanmobile.svg"></img>
                   </b-btn>
                </div>
+               <div class="terms" style="text-decoration: underline">
+                  <b-btn style="font-size: large; text-decoration: underline;" v-b-modal.modal-terms variant="link" class="text-dark"
+                     >THE HEIST TERMS & CONDITIONS</b-btn
+                     >
+               </div>
+               <div class="terms text-danger">2022 THE HEIST ™</div>
+            </b-col>
+            <b-col cols="12" md="auto" sm="12" class="ml-auto "
+               ><img style="height: 54px" src="/Mel-Signature.svg"
+               />
+                
                
             </b-col>
          </b-row>
