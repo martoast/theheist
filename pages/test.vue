@@ -56,8 +56,8 @@
                  
                   <b-row>
                      <b-col>
-                        <b-btn variant="link">
-                     <img style="max-width: 13rem;" class="mx-2" src="/popcorn.png"></img>
+                        <b-btn class="p-0" variant="link">
+                     <img style="max-width: 14rem;" class="mx-2" src="/popcorn.png"></img>
                   </b-btn>
                         <div style="font-family: 'Market'; font-size: 28px;" class="font-weight-bold text-gray">Every Identity Is Unique</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Created from a combination of over 100 different traits with varying rarity.</div>
