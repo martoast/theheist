@@ -46,7 +46,7 @@
                         <b-btn  class="p-0"  variant="link">
                      <img style="max-width: 12rem;" class="mx-2" src="/Gas-Tank.png"></img>
                   </b-btn>
-                        <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-gray">100% Hand Drawn Layers</div>
+                        <div style="font-family: 'Market'; font-size: 28px;" class="font-weight-bold text-gray">100% Hand Drawn Layers</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist.</div>
                      </b-col>
                   </b-row>
@@ -59,7 +59,7 @@
                         <b-btn variant="link">
                      <img style="max-width: 13rem;" class="mx-2" src="/popcorn.png"></img>
                   </b-btn>
-                        <div style="font-family: 'Komik'; font-size: 28px;" class="font-weight-bold text-gray">Every Identity Is Unique</div>
+                        <div style="font-family: 'Market'; font-size: 28px;" class="font-weight-bold text-gray">Every Identity Is Unique</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Created from a combination of over 100 different traits with varying rarity.</div>
                      </b-col>
                   </b-row>
@@ -73,7 +73,7 @@
                         <b-btn  class="p-0"  variant="link">
                            <img style="max-width: 19rem;" class="mx-2" src="/keys.png"></img>
                         </b-btn>
-                        <div style="font-family: 'Komik'; font-size: 28px;">Member Only Access</div>
+                        <div style="font-family: 'Market'; font-size: 28px;">Member Only Access</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Gain access to member exclusive merch, auctions, giveaways and more!</div>
                      </b-col>
                   </b-row>
@@ -82,7 +82,7 @@
          </b-row>
       </b-container>
       <b-container class="py-5">
-         <h2 class="text-center text-white py-3" style="font-family: 'Komik'; font-size: 42px;">The Gallery</h2>
+         <h2 class="text-center text-white py-3" style="font-family: 'Market'; font-size: 42px;">The Gallery</h2>
          <div>
             <b-card-group class="d-none d-md-block" columns>
                <b-card
@@ -173,7 +173,12 @@
       <b-container fluid class="py-3 py-md-5  text-white text-center">
          <b-row align-v="center">
             <b-col  cols="12" md="6" sm="12">
-               <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">About the Artist</h2>
+               <div class="d-none d-md-block">
+                  <h2 class="text-center" style="font-family: 'Market'; font-size: 42px;">About the Artist</h2>
+               </div>
+               <div class="d-block d-md-none">
+                  <h2 class="text-center" style="font-family: 'Market'; font-size: 38px;">About the Artist</h2>
+               </div>
                <p style="font-family: 'Champange';" class="px-2 px-md-5">
                   The Artist, Melanie Mercado has been developing this story, this universe for over 5 years. The original story and illustrations were done with markers and in the form of a comic book, recounting personal stories and fictional stories brought to life (and provoked) by real events. The Heist women are Alter Ego portraits turned, Calendar, turned comic book turned - THE ULTIMATE - NFT Collection.
                </p>
@@ -209,7 +214,7 @@
                   ></b-card>
             </b-col>
             <b-col class="py-5"  cols="12" md="6" sm="12">
-               <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
+               <h2 class="text-center" style="font-family: 'Market'; font-size: 42px;">The Heist story</h2>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
                   The Heist Group consists of 3 women who find themselves at a crossroad. A drunk and impulsive night turned into risking everything they have and moving across the country in an attempt to change their lives. Little did they know how much their lives would actually change. Between terrible decisions and awful money management they find themselves having to choose between options.. Continuing down the straight and narrow path, or getting into a life of crime. The choice is made for them when they accidentally (but almost by choice) kill a friend’s A$$hole boyfriend. After this horrific incident- there is no turning back.
                </p>
@@ -248,7 +253,7 @@ A committee of all women that broke free from the rules of society, from poverty
       <b-container fluid class="d-block d-md-none py-5 px-0 px-md-5 text-white">
          <b-row align-v="center">
             <b-col class="py-5"  cols="12" md="6" sm="12">
-               <h2 class="text-center" style="font-family: 'Komik'; font-size: 42px;">The Heist story</h2>
+               <h2 class="text-center" style="font-family: 'Market'; font-size: 42px;">The Heist story</h2>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
                   The Heist Group consists of 3 women who find themselves at a crossroad. A drunk and impulsive night turned into risking everything they have and moving across the country in an attempt to change their lives. Little did they know how much their lives would actually change. Between terrible decisions and awful money management they find themselves having to choose between options.. Continuing down the straight and narrow path, or getting into a life of crime. The choice is made for them when they accidentally (but almost by choice) kill a friend’s A$$hole boyfriend. After this horrific incident- there is no turning back.
                </p>
@@ -294,7 +299,7 @@ A committee of all women that broke free from the rules of society, from poverty
       </b-container>
 
       <b-container class="py-5">
-         <h2 class="text-center text-white pb-4" style="font-family: 'Komik'; font-size: 42px;">Meet the Team</h2>
+         <h2 class="text-center text-white pb-4" style="font-family: 'Market'; font-size: 42px;">Meet the Team</h2>
          <meet-team></meet-team>
 
       </b-container>
@@ -302,7 +307,7 @@ A committee of all women that broke free from the rules of society, from poverty
        <b-container style="padding-top:2.5rem; padding-bottom:13rem">
          <b-row align-v="center" style="height: 55vh">
             <b-col  cols="12" md="6" sm="12">
-              <h2 class="text-center text-white pb-2" style="font-family: 'Komik'; font-size: 42px;">Q & A</h2>
+              <h2 class="text-center text-white pb-2" style="font-family: 'Market'; font-size: 42px;">Q & A</h2>
                 <accordion-cards></accordion-cards>
             </b-col>
             <b-col cols="12" md="6" sm="12">
@@ -465,6 +470,14 @@ export default {
   font-weight: 400;
   font-display: swap;
   src: url("~assets/fonts/Champagne.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Market";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/Market.ttf") format("truetype");
 }
 
 .terms {
