@@ -7,7 +7,7 @@
         img-alt="Image"
         img-top
       >
-        <b-card-title style="font-family: 'Komik'; font-size: 34px"
+        <b-card-title style="font-family: 'Market'; font-size: 34px"
           >MGMS aka "GOD"</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
@@ -24,7 +24,7 @@
         img-alt="Image"
         img-top
       >
-        <b-card-title style="font-family: 'Komik'; font-size: 34px"
+        <b-card-title style="font-family: 'Market'; font-size: 34px"
           >Mastermind</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
@@ -39,7 +39,7 @@
         img-alt="Image"
         img-top
       >
-        <b-card-title style="font-family: 'Komik'; font-size: 34px"
+        <b-card-title style="font-family: 'Market'; font-size: 34px"
           >The Hacker</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
@@ -56,7 +56,7 @@
         img-alt="Image"
         img-top
       >
-        <b-card-title style="font-family: 'Komik'; font-size: 34px"
+        <b-card-title style="font-family: 'Market'; font-size: 34px"
           >WingWoman</b-card-title
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
