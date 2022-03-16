@@ -60,8 +60,11 @@
                 </b-col>
               </b-row>
 
-              <b-button pill class="enter-btn border-0"
-                >PUBLIC SALE IS CLOSED!</b-button
+              <b-button
+                href="//mint.theheist.world"
+                pill
+                class="enter-btn border-0"
+                >Early Holders Whitelist</b-button
               >
             </div>
           </div>
