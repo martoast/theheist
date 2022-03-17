@@ -214,7 +214,7 @@
                   ></b-card>
             </b-col>
             <b-col class="py-5"  cols="12" md="6" sm="12">
-               <h2 class="text-center" style="font-family: 'Market'; font-size: 42px;">The Heist story</h2>
+               <h2 class="text-center py-3" style="font-family: 'Market'; font-size: 42px;">The Heist story</h2>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
                   The Heist Group consists of 3 women who find themselves at a crossroad. A drunk and impulsive night turned into risking everything they have and moving across the country in an attempt to change their lives. Little did they know how much their lives would actually change. Between terrible decisions and awful money management they find themselves having to choose between options.. Continuing down the straight and narrow path, or getting into a life of crime. The choice is made for them when they accidentally (but almost by choice) kill a friend’s A$$hole boyfriend. After this horrific incident- there is no turning back.
                </p>
@@ -253,7 +253,7 @@ A committee of all women that broke free from the rules of society, from poverty
       <b-container fluid class="d-block d-md-none py-5 px-0 px-md-5 text-white">
          <b-row align-v="center">
             <b-col class="py-5"  cols="12" md="6" sm="12">
-               <h2 class="text-center" style="font-family: 'Market'; font-size: 42px;">The Heist story</h2>
+               <h2 class="text-center py-3" style="font-family: 'Market'; font-size: 42px;">The Heist story</h2>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
                   The Heist Group consists of 3 women who find themselves at a crossroad. A drunk and impulsive night turned into risking everything they have and moving across the country in an attempt to change their lives. Little did they know how much their lives would actually change. Between terrible decisions and awful money management they find themselves having to choose between options.. Continuing down the straight and narrow path, or getting into a life of crime. The choice is made for them when they accidentally (but almost by choice) kill a friend’s A$$hole boyfriend. After this horrific incident- there is no turning back.
                </p>
@@ -299,7 +299,7 @@ A committee of all women that broke free from the rules of society, from poverty
       </b-container>
 
       <b-container class="py-5">
-         <h2 class="text-center text-white pb-4" style="font-family: 'Market'; font-size: 42px;">Meet the Team</h2>
+         <h2 class="text-center text-white py-3" style="font-family: 'Market'; font-size: 42px;">Meet the Team</h2>
          <meet-team></meet-team>
 
       </b-container>

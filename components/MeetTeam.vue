@@ -14,7 +14,7 @@
           Fashion Designer by day, illustrator by night. Melanie Mercado has
           been juggling the fashion industry for over 11 yrs while creating a
           universe of illustrations in her free time (and cutting into her sleep
-          time- but then again… God never sleeps)
+          time- but then again… God never sleeps).
         </b-card-text>
       </b-card>
 
