@@ -44,7 +44,7 @@
                <b-row>
                      <b-col>
                         <b-btn  class="p-0"  variant="link">
-                     <img style="max-width: 12rem;" class="mx-2" src="/Gas-Tank.png"></img>
+                     <img style="max-width: 50%;"  class="mx-2" src="/Gas-Tank.png"></img>
                   </b-btn>
                         <div style="font-family: 'Market'; font-size: 28px;" class="font-weight-bold text-gray">100% Hand Drawn Layers</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist.</div>
@@ -57,7 +57,7 @@
                   <b-row>
                      <b-col>
                         <b-btn class="p-0" variant="link">
-                     <img style="max-width: 14rem;" class="mx-2" src="/popcorn.png"></img>
+                     <img style="max-width: 50%;" class="mx-2" src="/popcorn.png"></img>
                   </b-btn>
                         <div style="font-family: 'Market'; font-size: 28px;" class="font-weight-bold text-gray">Every Identity Is Unique</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Created from a combination of over 100 different traits with varying rarity.</div>
@@ -70,8 +70,8 @@
                   
                   <b-row>
                      <b-col>
-                        <b-btn  class="p-0"  variant="link">
-                           <img style="max-width: 19rem;" class="mx-2" src="/keys.png"></img>
+                        <b-btn class="p-0 m-0"  variant="link">
+                           <img style="max-width: 50%;" class="mx-2" src="/keys.png"></img>
                         </b-btn>
                         <div style="font-family: 'Market'; font-size: 28px;">Member Only Access</div>
                         <div style="font-family: 'Champange'; font-size: 22px;">Gain access to member exclusive merch, auctions, giveaways and more!</div>
