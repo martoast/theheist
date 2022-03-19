@@ -29,14 +29,9 @@
         >
         <b-card-text style="font-family: 'Champange'; font-size: 18px">
           Enrique Marrero began his career in the world of computing by creating
-          custom private servers of existing gaming platforms. Thanks to this he
-          was able to gain the expertise to generate a variety of games,
-          websites and applications; both native and web-based. Enrique is an
-          avid conversationalist and all-around people person. He is always
+          custom private servers of existing gaming platforms. He is always
           networking with new persons, and companies, of interest which is a
-          task he does not take lightly as the team leader of The Heist. As a
-          project director and programmer he is always learning new skills that
-          he can directly apply to his entrepreneurial endeavors.
+          task he does not take lightly as the team leader of The Heist.
         </b-card-text>
       </b-card>
 
