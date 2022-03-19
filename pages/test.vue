@@ -36,31 +36,31 @@
 
       
       
-      <b-container fluid class="text-white text-center py-5 px-5" >
+      <b-container class="text-white text-center py-5" >
          
          <b-row align-h="center"  align-v="center" no-gutters>
             <b-col class="py-5" md="4" cols="12">
                
-               <b-row>
+               <b-row  no-gutters>
                      <b-col>
                         <b-btn  class="p-0"  variant="link">
-                     <img style="max-width: 50%;"  class="mx-2" src="/Gas-Tank.png"></img>
+                     <img style="max-width: 40%;"  class="mx-2" src="/Gas-Tank.png"></img>
                   </b-btn>
                         <div style="font-family: 'Market'; font-size: 28px;" class="font-weight-bold text-gray">100% Hand Drawn Layers</div>
-                        <div style="font-family: 'Champange'; font-size: 22px;">Thought up and drawn by a female artist.</div>
+                        <div style="font-family: 'Champange'; font-size: 22px;">Created and drawn by a female artist.</div>
                      </b-col>
                   </b-row>
             </b-col>
             <b-col class="py-5" md="4" cols="12">
                <div style="align-items: center; justify-content: center;">
                  
-                  <b-row>
+                  <b-row  no-gutters>
                      <b-col>
                         <b-btn class="p-0" variant="link">
                      <img style="max-width: 50%;" class="mx-2" src="/popcorn.png"></img>
                   </b-btn>
                         <div style="font-family: 'Market'; font-size: 28px;" class="font-weight-bold text-gray">Every Identity Is Unique</div>
-                        <div style="font-family: 'Champange'; font-size: 22px;">Created from a combination of over 100 different traits with varying rarity.</div>
+                        <div style="font-family: 'Champange'; font-size: 22px;">Created from a combination of 100+ distinct traits with varying rarity.</div>
                      </b-col>
                   </b-row>
                </div>
@@ -68,13 +68,13 @@
             <b-col class="py-5" md="4" cols="12">
                <div style="align-items: center; justify-content: center;">
                   
-                  <b-row>
+                  <b-row  no-gutters>
                      <b-col>
                         <b-btn class="p-0 m-0"  variant="link">
                            <img style="max-width: 50%;" class="mx-2" src="/keys.png"></img>
                         </b-btn>
                         <div style="font-family: 'Market'; font-size: 28px;">Member Only Access</div>
-                        <div style="font-family: 'Champange'; font-size: 22px;">Gain access to member exclusive merch, auctions, giveaways and more!</div>
+                        <div style="font-family: 'Champange'; font-size: 22px;">Gain access to exclusive merch, auctions, giveaways, and more!</div>
                      </b-col>
                   </b-row>
                </div>
