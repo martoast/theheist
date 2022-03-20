@@ -16,16 +16,24 @@
          
       </div>
      
-      <b-row class="d-none d-md-block" align-v="center" style="height: 100vh; background-image: url('/motelhq.gif');  background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center;">
+
+      <div class="d-none d-md-block">
+         <video width="100%" height="100%" autoplay muted loop>
+         <source src="MotelBig.mp4" type="video/mp4">
          
-      </b-row>
-      <b-row class="d-block d-md-none" align-v="center" style="height: 100vh; background-image: url('/mobilemotel.gif');  background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center;">
+      </video>
+
+      </div>
+
+      <div class="d-block d-md-none">
+         <video width="100%" height="100%" autoplay muted loop>
+         <source src="MotelSmall.mp4" type="video/mp4">
          
-      </b-row>
+      </video>
+
+      </div>
+
+      
 
       <div class="d-none d-md-block" style="position: absolute; right: 49%; bottom: 3.5rem; z-index: 100">
          <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
