@@ -147,8 +147,8 @@
                <b-carousel
       id="carousel-1"
       :interval="4000"
+     
       controls
-      indicators
       img-width="1024"
       img-height="480"      
     >
@@ -304,12 +304,11 @@ A committee of all women that broke free from the rules of society, from poverty
 
       </b-container>
 
-      <b-row no-gutters class="d-none d-md-block" align-v="center" style="height: 75vh; background-image: url('/clean_background.png');  background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center;">
+      <b-row no-gutters class="d-none d-md-block" style="height: 100vh; background-image: url('/clean_background.png');  background-repeat: no-repeat;
+         background-size: cover;">
 
          <b-col>
-            <b-row style="height: 75vh;" align-h="center" align-v="center" align-content="center">
+            <b-row style="height:100vh" align-h="center" align-v="center" align-content="center">
                <b-col cols="4">
                   <h2 class="text-center text-white pb-2" style="font-family: 'Market'; font-size: 42px;">Q & A</h2>
                 <accordion-cards></accordion-cards>
@@ -516,6 +515,11 @@ export default {
 }
 .shit {
   padding-top: 2rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
 
 
