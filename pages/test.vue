@@ -19,7 +19,10 @@
 
       <div class="d-none d-md-block">
          <video width="100%" height="100%" autoplay muted loop>
-         <source src="MotelBig.mp4" type="video/mp4">
+         <source src="/MotelBig.mp4" type="video/mp4">
+         <div class="d-none d-md-block" style="position: absolute; right: 49%; bottom: 3.5rem; z-index: 100">
+            <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
+         </div>
          
       </video>
 
@@ -27,7 +30,10 @@
 
       <div class="d-block d-md-none">
          <video width="100%" height="100%" autoplay muted loop>
-         <source src="MotelSmall.mp4" type="video/mp4">
+         <source src="/MotelSmall.mp4" type="video/mp4">
+         <div class="d-block d-md-none" style="position: absolute; right: 42%; bottom: 2.5rem; z-index: 100">
+            <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
+         </div>
          
       </video>
 
@@ -35,12 +41,8 @@
 
       
 
-      <div class="d-none d-md-block" style="position: absolute; right: 49%; bottom: 3.5rem; z-index: 100">
-         <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
-      </div>
-      <div class="d-block d-md-none" style="position: absolute; right: 42%; bottom: 2.5rem; z-index: 100">
-         <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
-      </div>
+      
+      
 
       
       
