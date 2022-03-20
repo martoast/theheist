@@ -18,9 +18,9 @@
      
 
       <div class="d-none d-md-block">
-         <video width="100%" height="100%" autoplay muted loop>
+         <video id="vid" ref="vid" width="100%" height="100%" autoplay playsinline muted loop>
          <source src="/MotelBig.mp4" type="video/mp4">
-         <div class="d-none d-md-block" style="position: absolute; right: 49%; bottom: 3.5rem; z-index: 100">
+         <div class="d-none d-md-block" style="position: fixed; right: 49%; bottom: 3.5rem; z-index: 100">
             <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
          </div>
          
@@ -29,9 +29,9 @@
       </div>
 
       <div class="d-block d-md-none">
-         <video width="100%" height="100%" autoplay muted loop>
+         <video id="vid" ref="vid" width="100%" height="100%" autoplay playsinline muted loop>
          <source src="/MotelSmall.mp4" type="video/mp4">
-         <div class="d-block d-md-none" style="position: absolute; right: 42%; bottom: 2.5rem; z-index: 100">
+         <div class="d-block d-md-none" style="position: fixed; right: 42%; bottom: 2.5rem; z-index: 100">
             <img style="max-width: 3rem;" src="/scrollhelp.gif"></img>
          </div>
          
@@ -248,7 +248,7 @@ A committee of all women that broke free from the rules of society, from poverty
                   They created a union of 10,000 ruthless female trained escape artists, specialized in Heist Missions against this system. Spectators seem to only catch but a glimpse of the crimes they commit. Sly, prestigious but executing their plans precisely.
                </p>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
-                  Some say that thousands of them are all dressed in different attire when seen in person, others think it is the same 3 girls doing it all. Legend has it, by the time the local authorities are to be contacted for help, a cloud of dust is seen out of the building. Some have ideas of what they look like, and others say it is all a myth. Not only are these women professional bank robbers, jewelry thieves, and hijackers on a block chain, they plan to expand inside of the METAVERSE It is believed they run the largest Crime Union on the Western Hemisphere called the Heist Group and they are looking for expansion! 
+                  Some say that thousands of them are all dressed in different attire when seen in person, others think it is the same 3 girls doing it all. Legend has it, by the time the local authorities are to be contacted for help, a cloud of dust is seen out of the building. Some have ideas of what they look like, and others say it is all a myth. Not only are these women professional bank robbers, jewelry thieves, and hijackers on a block chain, they plan to expand inside of the METAVERSE. 
                </p>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
                   It is believed they run the largest Crime Union on the Western Hemisphere called The Heist Group and they are looking for expansion! 
@@ -287,7 +287,7 @@ A committee of all women that broke free from the rules of society, from poverty
                   They created a union of 10,000 ruthless female trained escape artists, specialized in Heist Missions against this system. Spectators seem to only catch but a glimpse of the crimes they commit. Sly, prestigious but executing their plans precisely.
                </p>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
-                  Some say that thousands of them are all dressed in different attire when seen in person, others think it is the same 3 girls doing it all. Legend has it, by the time the local authorities are to be contacted for help, a cloud of dust is seen out of the building. Some have ideas of what they look like, and others say it is all a myth. Not only are these women professional bank robbers, jewelry thieves, and hijackers on a block chain, they plan to expand inside of the METAVERSE It is believed they run the largest Crime Union on the Western Hemisphere called the Heist Group and they are looking for expansion! 
+                  Some say that thousands of them are all dressed in different attire when seen in person, others think it is the same 3 girls doing it all. Legend has it, by the time the local authorities are to be contacted for help, a cloud of dust is seen out of the building. Some have ideas of what they look like, and others say it is all a myth. Not only are these women professional bank robbers, jewelry thieves, and hijackers on a block chain, they plan to expand inside of the METAVERSE. 
                </p>
                <p style="font-family: 'Champange';" class="px-2 px-md-3">
                   It is believed they run the largest Crime Union on the Western Hemisphere called The Heist Group and they are looking for expansion! 
@@ -471,8 +471,6 @@ export default {
     MeetTeam
  
   },
-  
-//   layout: "main",
    
 };
 </script>
