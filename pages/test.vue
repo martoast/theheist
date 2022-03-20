@@ -304,7 +304,28 @@ A committee of all women that broke free from the rules of society, from poverty
 
       </b-container>
 
-       <b-container style="padding-top:2.5rem; padding-bottom:13rem">
+      <b-row no-gutters class="d-none d-md-block" align-v="center" style="height: 75vh; background-image: url('/clean_background.png');  background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;">
+
+         <b-col>
+            <b-row style="height: 75vh;" align-h="center" align-v="center" align-content="center">
+               <b-col cols="4">
+                  <h2 class="text-center text-white pb-2" style="font-family: 'Market'; font-size: 42px;">Q & A</h2>
+                <accordion-cards></accordion-cards>
+
+               </b-col>
+            </b-row>
+            
+               
+            
+         </b-col>
+         
+      </b-row>
+
+
+
+       <b-container class="d-block d-md-none" style="padding-top:2.5rem; padding-bottom:13rem">
          <b-row align-v="center" style="height: 55vh">
             <b-col  cols="12" md="6" sm="12">
               <h2 class="text-center text-white pb-2" style="font-family: 'Market'; font-size: 42px;">Q & A</h2>
