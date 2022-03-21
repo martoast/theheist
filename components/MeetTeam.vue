@@ -34,10 +34,10 @@
           <span style="font-weight: bold; font-size: 22px"
             >Kevin Adrian Di Nardo</span
           >
-          is a Miami based architectural designer and 3D artist with over 10
-          years of design experience. Kevin holds a Master’s Degree in
-          Architecture and is the recipient of the 2019 Miami AIA Merit Award of
-          Excellence.
+          Kevin Adrian Di Nardo is a Miami based architectural designer and 3D
+          artist. As the Architect of the team, he brings over 10 years of
+          design experience to The Heist and is dedicated to manifesting a
+          metaverse for its community to populate, explore and enjoy.
         </b-card-text>
       </b-card>
 
