@@ -1,6 +1,8 @@
 <template>
    <div style="background-color: #000 !important">
-      <div class="d-none d-md-block" style="position: absolute; right: 3.5rem; top:2.5rem; z-index: 100">
+      
+      
+      <div class="d-none d-md-block" style="position: absolute; right: 3.5rem; top:3.5rem; z-index: 100">
          <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
             <img style="width: 2rem;" class="mx-2" src="/twitterlogo.svg"></img>
          </b-btn>
@@ -15,6 +17,8 @@
          </b-btn>
          
       </div>
+
+      <b-alert style="position: absolute; z-index: 100; width: 100%;" show variant="dark"><span>PRIVATE SALE IS LIVE!</span><a href="//mint.theheist.world" style="text-decoration: underline;" class="pl-3 alert-link">Click Here</a></b-alert>
      
 
       <div class="d-none d-md-block">
@@ -38,6 +42,8 @@
       </video>
 
       </div>
+
+      
 
       
 
