@@ -18,9 +18,6 @@
          
       </div>
 
-      <b-alert style="position: absolute; z-index: 100; width: 100%;" show variant="dark"><span>PRIVATE SALE IS LIVE!</span><a href="//mint.theheist.world" style="text-decoration: underline;" class="pl-3 alert-link">Click Here</a></b-alert>
-     
-
       <div class="d-none d-md-block">
          <video id="vid" ref="vid" width="100%" height="100%" autoplay playsinline muted loop>
          <source src="/MotelBig.mp4" type="video/mp4">
