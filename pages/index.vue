@@ -311,7 +311,7 @@ A committee of all women that broke free from the rules of society, from poverty
          </b-row>
       </b-container>
 
-      
+     
 
       <b-container class="py-5">
          <h2 class="text-center text-white py-3" style="font-family: 'Market'; font-size: 42px;">Meet the Team</h2>
