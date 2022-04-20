@@ -311,6 +311,33 @@ A committee of all women that broke free from the rules of society, from poverty
          </b-row>
       </b-container>
 
+      <b-container>
+         <b-row  align-h="center" align-v="center">
+         
+         <b-col cols="12" md="8">
+            <b-container fluid>
+               <h2 class="text-center text-white" style="font-family: 'Market'; font-size: 42px;">The Roadmap is live!</h2>
+               <div class="text-center pt-4">
+                  <b-button style="font-family: 'Market';" to="/roadmap" variant="outline-danger">Click here to view</b-button>
+               </div>
+            </b-container>
+         </b-col>
+          <b-col cols="12" md="4">
+
+             <b-container fluid>
+                <div class="text-center">
+                   <b-img class="pt-5 py-md-0" src="/mapita(1).png" fluid alt="Responsive image"></b-img>
+                </div>
+             </b-container>
+
+          
+            
+          </b-col>
+
+
+      </b-row>
+      </b-container>
+
      
 
       <b-container class="py-5">
@@ -479,7 +506,7 @@ export default {
  
   },
 
-  layout: "main",
+  
    
 };
 </script>
