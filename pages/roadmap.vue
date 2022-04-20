@@ -1,7 +1,7 @@
 <template>
   <div
     style="
-      background-image: url('clean_background.png');
+      background-image: url('/clean_background.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
