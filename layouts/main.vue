@@ -24,9 +24,9 @@
     -->
         <ul id="menu">
           <a href="/"><p class="about text-white">Home</p></a>
-          <a href="/about-us"><p class="about text-white">About</p></a>
+
           <a href="/roadmap"><p class="about text-white">Roadmap</p></a>
-          <a href="/faq"><p class="about text-white">FAQ</p></a>
+
           <!-- <a href="//mint.theheist.world"
             ><p class="about text-white">Mint</p></a
           > -->
@@ -61,8 +61,16 @@
   src: url("~assets/fonts/Champagne.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Market";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/Market.ttf") format("truetype");
+}
+
 .about {
-  font-family: "komik";
+  font-family: "Market";
   font-size: 2rem;
 }
 
@@ -91,7 +99,7 @@
 
 #menuToggle a {
   text-decoration: none;
-  color: #232323;
+  color: white;
 
   transition: color 0.3s ease;
 }
@@ -152,7 +160,7 @@
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: white;
 }
 
 /*

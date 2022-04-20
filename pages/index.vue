@@ -478,6 +478,8 @@ export default {
     MeetTeam
  
   },
+
+  layout: "main",
    
 };
 </script>
