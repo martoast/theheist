@@ -180,15 +180,6 @@
                         </div>
                       </div>
                     </div>
-
-                    <div class="tl-item active" style="text-align: left">
-                      <div class="tl-dot b-danger"></div>
-                      <div class="tl-content">
-                        <div class="text-white">
-                          First scenes of the The Heist Comic will be released
-                        </div>
-                      </div>
-                    </div>
                   </div>
 
                   <h1
