@@ -99,7 +99,7 @@
 
          <div class="d-none d-md-block">
             <b-row no-gutters class="py-3" align-h="around">
-               <b-col cols="3"><div class="flip-card">
+               <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
                     <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
@@ -109,7 +109,7 @@
                   </div>
                   </div>
                </div></b-col>
-               <b-col cols="3"><div class="flip-card">
+               <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
                     <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
@@ -120,7 +120,7 @@
                   </div>
                </div></b-col>
 
-               <b-col cols="3"><div class="flip-card">
+               <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
                     <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
@@ -134,7 +134,7 @@
             </b-row>
 
             <b-row no-gutters class="py-3" align-h="around">
-               <b-col cols="3"><div class="flip-card">
+               <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
                     <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
@@ -144,7 +144,7 @@
                   </div>
                   </div>
                </div></b-col>
-               <b-col cols="3"><div class="flip-card">
+               <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
                     <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
@@ -155,7 +155,7 @@
                   </div>
                </div></b-col>
 
-               <b-col cols="3"><div class="flip-card">
+               <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
                     <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
