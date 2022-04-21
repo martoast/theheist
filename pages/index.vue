@@ -94,7 +94,7 @@
             </b-col>
          </b-row>
       </b-container>
-      <b-container fluid class="py-5 px-5">
+      <b-container class="py-5">
          <h2 class="text-center text-white py-3" style="font-family: 'Market'; font-size: 42px;">The Gallery</h2>
 
          <div class="d-none d-md-block">
