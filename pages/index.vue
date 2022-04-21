@@ -97,25 +97,27 @@
       <b-container class="py-5">
          <h2 class="text-center text-white py-3" style="font-family: 'Market'; font-size: 42px;">The Gallery</h2>
 
+         <p class="d-none d-md-block text-white text-center" style="font-family: 'Market';">Hover over cards to reveal</p>
+
          <div class="d-none d-md-block">
             <b-row no-gutters class="py-3" align-h="around">
                <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/8061.png" alt="Avatar" style="width:356px;height:451px;">
+                      <img src="/images/gallery/8061.png" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   </div>
                </div></b-col>
                <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/rocketgirl.jpeg" alt="Avatar" style="width:356px;height:451px;">
+                      <img src="/rocketgirl.jpeg" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   </div>
                </div></b-col>
@@ -123,10 +125,10 @@
                <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/1356.png" alt="Avatar" style="width:356px;height:451px;">
+                      <img src="/images/gallery/1356.png" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   </div>
                </div></b-col>
@@ -137,20 +139,20 @@
                <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/7846.png" alt="Avatar" style="width:356px;height:451px;">
+                      <img src="/images/gallery/7846.png" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   </div>
                </div></b-col>
                <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/4741.png" alt="Avatar" style="width:356px;height:451px;">
+                      <img src="/images/gallery/4741.png" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   </div>
                </div></b-col>
@@ -158,10 +160,10 @@
                <b-col cols="3" style="max-width: none;"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/88.png" alt="Avatar" style="width:356px;height:451px;">
+                      <img src="/images/gallery/88.png" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
                   </div>
                   </div>
                </div></b-col>
@@ -679,7 +681,7 @@ export default {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: transparent;
   color: black;
 }
 

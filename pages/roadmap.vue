@@ -116,7 +116,7 @@
                     class="timeline p-4 block mb-4"
                     style="font-family: 'Champange'; font-size: 24px"
                   >
-                    <div class="tl-item active" style="text-align: left">
+                    <div class="tl-item completed" style="text-align: left">
                       <div class="tl-dot b-danger"></div>
                       <div class="tl-content">
                         <div class="text-white">
@@ -125,7 +125,7 @@
                       </div>
                     </div>
 
-                    <div class="tl-item active" style="text-align: left">
+                    <div class="tl-item completed" style="text-align: left">
                       <div class="tl-dot b-danger"></div>
                       <div class="tl-content">
                         <div class="text-white">
@@ -134,7 +134,7 @@
                       </div>
                     </div>
 
-                    <div class="tl-item active" style="text-align: left">
+                    <div class="tl-item completed" style="text-align: left">
                       <div class="tl-dot b-danger"></div>
                       <div class="tl-content">
                         <div class="text-white">
@@ -147,8 +147,7 @@
                       <div class="tl-dot b-danger"></div>
                       <div class="tl-content">
                         <div class="text-white">
-                          3D model First Metaverse Heist Lounge for Discord
-                          Community
+                          .05 ETH Public Sale of Genesis Collection begins!
                         </div>
                       </div>
                     </div>
@@ -157,7 +156,8 @@
                       <div class="tl-dot b-danger"></div>
                       <div class="tl-content">
                         <div class="text-white">
-                          .05 ETH Public Sale of Genesis Collection begins!
+                          3D model First Metaverse Heist Lounge for Discord
+                          Community
                         </div>
                       </div>
                     </div>
