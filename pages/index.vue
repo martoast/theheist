@@ -94,11 +94,11 @@
             </b-col>
          </b-row>
       </b-container>
-      <b-container class="py-5">
+      <b-container fluid class="py-5 px-5">
          <h2 class="text-center text-white py-3" style="font-family: 'Market'; font-size: 42px;">The Gallery</h2>
 
          <div class="d-none d-md-block">
-            <b-row no-gutters class="py-3" align-h="between">
+            <b-row no-gutters class="py-3" align-h="around">
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
@@ -133,7 +133,7 @@
 
             </b-row>
 
-            <b-row no-gutters class="py-3" align-h="between">
+            <b-row no-gutters class="py-3" align-h="around">
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
