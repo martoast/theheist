@@ -102,20 +102,20 @@
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/8061.png" alt="Avatar" style="width:400px;height:509px;">
+                      <img src="/images/gallery/8061.png" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   </div>
                </div></b-col>
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/rocketgirl.jpeg" alt="Avatar" style="width:400px;height:509px;">
+                      <img src="/rocketgirl.jpeg" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   </div>
                </div></b-col>
@@ -123,10 +123,10 @@
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/1356.png" alt="Avatar" style="width:400px;height:509px;">
+                      <img src="/images/gallery/1356.png" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   </div>
                </div></b-col>
@@ -137,20 +137,20 @@
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/7846.png" alt="Avatar" style="width:400px;height:509px;">
+                      <img src="/images/gallery/7846.png" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   </div>
                </div></b-col>
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/4741.png" alt="Avatar" style="width:400px;height:509px;">
+                      <img src="/images/gallery/4741.png" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   </div>
                </div></b-col>
@@ -158,10 +158,10 @@
                <b-col cols="3"><div class="flip-card">
                   <div class="flip-card-inner">
                      <div class="flip-card-front">
-                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                    <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   <div class="flip-card-back">
-                      <img src="/images/gallery/88.png" alt="Avatar" style="width:400px;height:509px;">
+                      <img src="/images/gallery/88.png" alt="Avatar" style="width:356px;height:451px;">
                   </div>
                   </div>
                </div></b-col>
@@ -648,8 +648,8 @@ export default {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 400px;
-  height: 509px;
+  width: 354px;
+  height: 451px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
