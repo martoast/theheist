@@ -98,7 +98,7 @@
                       <div class="tl-dot b-danger"></div>
                       <div class="tl-content">
                         <div class="text-white">
-                          0.5 ETH Private Sale for Legendary 1/1 Giveaway – end
+                          0.05 ETH Private Sale for Legendary 1/1 Giveaway – end
                           of March
                         </div>
                       </div>

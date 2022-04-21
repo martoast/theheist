@@ -96,7 +96,111 @@
       </b-container>
       <b-container class="py-5">
          <h2 class="text-center text-white py-3" style="font-family: 'Market'; font-size: 42px;">The Gallery</h2>
-         <div>
+
+         <div class="d-none d-md-block">
+            <b-row no-gutters class="py-3" align-h="between">
+               <b-col cols="3"><div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <img src="/images/gallery/8061.png" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  </div>
+               </div></b-col>
+               <b-col cols="3"><div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <img src="/rocketgirl.jpeg" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  </div>
+               </div></b-col>
+
+               <b-col cols="3"><div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <img src="/images/gallery/1356.png" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  </div>
+               </div></b-col>
+
+            </b-row>
+
+            <b-row no-gutters class="py-3" align-h="between">
+               <b-col cols="3"><div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <img src="/images/gallery/7846.png" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  </div>
+               </div></b-col>
+               <b-col cols="3"><div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <img src="/images/gallery/4741.png" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  </div>
+               </div></b-col>
+
+               <b-col cols="3"><div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                    <img src="/PH.gif" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <img src="/images/gallery/88.png" alt="Avatar" style="width:400px;height:509px;">
+                  </div>
+                  </div>
+               </div></b-col>
+
+            </b-row>
+
+         </div>
+         
+
+
+          <div class="d-block d-md-none">
+               <b-carousel
+      id="carousel-1"
+      :interval="4000"
+     
+      controls
+      img-width="1024"
+      img-height="480"      
+    >
+   
+      <b-carousel-slide img-src="/images/gallery/5406.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/7818.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/5812.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/1356.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/7812.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/0.jpeg"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/7779.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/5211.png"></b-carousel-slide>
+      <b-carousel-slide img-src="/images/gallery/88.png"></b-carousel-slide>
+      
+
+               </b-carousel>
+          </div>
+         
+
+         
+      </b-container>
+
+      <!-- <div>
             <b-card-group class="d-none d-md-block" columns>
                <b-card
                   img-src="/images/gallery/7818.png"
@@ -156,33 +260,7 @@
                
                
             </b-card-group>
-            <div class="d-block d-md-none">
-               <b-carousel
-      id="carousel-1"
-      :interval="4000"
-     
-      controls
-      img-width="1024"
-      img-height="480"      
-    >
-   
-      <b-carousel-slide img-src="/images/gallery/5406.png"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/7818.png"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/5812.png"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/1356.png"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/7812.png"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/0.jpeg"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/7779.png"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/5211.png"></b-carousel-slide>
-      <b-carousel-slide img-src="/images/gallery/88.png"></b-carousel-slide>
-      
-
-    </b-carousel>
-
-            </div>
-            
-         </div>
-      </b-container>
+            </div> -->
       <b-container fluid class="py-3 py-md-5  text-white text-center">
          <b-row align-v="center">
             <b-col  cols="12" md="6" sm="12">
@@ -416,6 +494,7 @@ A committee of all women that broke free from the rules of society, from poverty
          </b-row>
       </b-container>
 
+
       <b-modal body-bg-variant="dark" size="lg" header-bg-variant="dark" header-close-variant="danger" header-border-variant="dark"  id="modal-terms" centered hide-footer>
          <b-container fluid>
           <h1 class="title text-white text-center">TERMS & CONDITIONS</h1>
@@ -566,6 +645,48 @@ export default {
     filter: invert(100%);
 }
 
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 509px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
 
 
 </style>
