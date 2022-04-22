@@ -1,5 +1,8 @@
 <template>
    <div style="background-color: #000 !important">
+
+      <b-alert variant="light" show style="position: absolute; z-index: 100; width: 100%; font-family: 'Market'; font-size: 18px;">Public Sale is LIVE!!<a href="//mint.theheist.world" target="_blank" class="alert-link pl-4" style="text-decoration: underline;">Click Here to Mint</a></b-alert>
+      
       <div class="d-none d-md-block" style="position: absolute; right: 3.5rem; top:3.5rem; z-index: 100">
          <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
             <img style="width: 2rem;" class="mx-2" src="/twitterlogo.svg"></img>
@@ -14,6 +17,7 @@
             <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
          </b-btn>
       </div>
+
       <div class="d-none d-md-block">
          <video id="vid" ref="vid" width="100%" height="100%" autoplay playsinline muted loop>
             <source src="/MotelBig.mp4" type="video/mp4">
@@ -77,7 +81,7 @@
          <div class="d-none d-md-block">
             <b-row no-gutters class="py-3" align-h="around">
                <b-col cols="3" style="max-width: none;">
-                  <div class="flip-card">
+                  <div class="flip-card" style="cursor: pointer;">
                      <div class="flip-card-inner">
                         <div class="flip-card-front">
                            <img src="/PH.gif" alt="Avatar" style="width:356px;height:451px; border-radius: 5px;">
@@ -458,6 +462,13 @@ export default {
     MeetTeam
  
   },
+
+  methods: {
+     onClickCard(id) {
+        this.$router.push('/' + id)
+
+     }
+  }
 
   
    
