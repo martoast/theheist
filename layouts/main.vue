@@ -1,38 +1,8 @@
 <template>
   <div>
-    <nav role="navigation">
-      <div id="menuToggle">
-        <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-        <input type="checkbox" />
-
-        <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-        <span></span>
-        <span></span>
-        <span></span>
-
-        <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-        <ul id="menu">
-          <a href="/"><p class="about text-white">Home</p></a>
-
-          <a href="/roadmap"><p class="about text-white">Roadmap</p></a>
-
-          <!-- <a href="//mint.theheist.world"
-            ><p class="about text-white">Mint</p></a
-          > -->
-        </ul>
-      </div>
-    </nav>
+    <b-btn class="p-0" to="/" variant="link" style="position: absolute; left: 1.5rem; top:2.5rem; z-index: 100">
+      <img style="width: 3rem;" class="mx-2" src="/GOBACKBUTTON.png"></img>
+    </b-btn>
     <Nuxt />
   </div>
 </template>
