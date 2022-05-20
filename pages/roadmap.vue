@@ -168,19 +168,6 @@
                       </div>
                     </div>
 
-                    <div
-                      class="tl-item active completed"
-                      style="text-align: left"
-                    >
-                      <div class="tl-dot b-danger"></div>
-                      <div class="tl-content">
-                        <div class="text-white">
-                          Host token gated community event inside Metaverse
-                          Lounge
-                        </div>
-                      </div>
-                    </div>
-
                     <div class="tl-item active" style="text-align: left">
                       <div class="tl-dot b-danger"></div>
                       <div class="tl-content">
