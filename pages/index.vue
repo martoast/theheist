@@ -1,6 +1,6 @@
 <template>
    <div style="background-color: #000 !important">
-      <b-alert class="text-white" show style="background-color: #000; border: 0; position: absolute; z-index: 100; width: 100%; font-family: 'Market'; font-size: 18px;">Heist Wars is LIVE!!<a href="//dashing-clafoutis-51ce4e.netlify.app/" target="_blank" class="alert-link pl-4" style="text-decoration: underline; color: red">Click Here to enter The Gallery</a></b-alert>
+      <b-alert class="text-white" show style="background-color: #000; border: 0; position: absolute; z-index: 100; width: 100%; font-family: 'Market'; font-size: 18px;">Public Sale is LIVE!!<a href="//mint.theheist.world/" target="_blank" class="alert-link pl-4" style="text-decoration: underline; color: red">Click Here</a></b-alert>
       
       <div class="d-none d-md-block" style="position: absolute; right: 3.5rem; top:3.5rem; z-index: 100">
          <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
