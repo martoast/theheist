@@ -1,8 +1,14 @@
 <template>
    <div style="background-color: #000 !important">
-      <!-- <b-alert class="text-white" show style="background-color: #000; border: 0; position: absolute; z-index: 100; width: 100%; font-family: 'Market'; font-size: 18px;">Public Flash Sale is LIVE!!<a href="//mint.theheist.world/" target="_blank" class="alert-link pl-4" style="text-decoration: underline; color: red">Click Here</a></b-alert> -->
+      
+      <!-- <b-alert class="text-white" show style="background-color: #000; border: 0; position: absolute; z-index: 100; width: 100%; font-family: 'Market'; font-size: 18px;">Public Flash Sale is LIVE!!<a href="//mint.theheist.world/" target="_blank" class="alert-link pl-4" style="text-decoration: underline; color: red">Click Here</a>
+         
+      </b-alert> -->
+      
       
       <div class="d-none d-md-block" style="position: absolute; right: 3.5rem; top:3.5rem; z-index: 100">
+         <main-nav></main-nav>
+         
          <b-btn class="p-0" href="//twitter.com/theheistworld" variant="link">
             <img style="width: 2rem;" class="mx-2" src="/twitterlogo.svg"></img>
          </b-btn>
@@ -16,6 +22,8 @@
             <img style="max-width: 2rem;" class="mx-2" src="/etherscan-logo.svg"></img>
          </b-btn>
       </div>
+
+      
 
       <div class="d-none d-md-block">
          <video id="vid" ref="vid" width="100%" height="100%" autoplay playsinline muted loop>
@@ -455,10 +463,12 @@
 <script>
 import AccordionCards from "~/components/AccordionCards.vue"
 import MeetTeam from "~/components/MeetTeam.vue"
+import MainNav from '../components/MainNav.vue';
 export default {
   components: {
     AccordionCards,
-    MeetTeam
+    MeetTeam,
+    MainNav
  
   },
 
@@ -505,6 +515,14 @@ export default {
   font-weight: 400;
   font-display: swap;
   src: url("~assets/fonts/Market.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WordOfGod";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/WordOfGod.ttf") format("truetype");
 }
 
 .terms {
