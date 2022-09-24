@@ -10,6 +10,7 @@
         <b-nav-item href="//theheist.world">Home</b-nav-item>
         <b-nav-item href="//mint.theheist.world">Minting</b-nav-item>
         <b-nav-item href="//gallery.theheist.world">Gallery</b-nav-item>
+        <b-nav-item href="//dressup.theheist.world">Dressup</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
