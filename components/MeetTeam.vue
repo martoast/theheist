@@ -97,23 +97,6 @@
           technology and it's potential to disrupt paradigms.
         </b-card-text>
       </b-card>
-
-      <b-card
-        style="background-color: #000 !important"
-        img-src="/Ash.png"
-        img-alt="Image"
-        img-top
-      >
-        <b-card-title style="font-family: 'Market'; font-size: 34px"
-          >Social Butterfly</b-card-title
-        >
-        <b-card-text style="font-family: 'Champange'; font-size: 18px">
-          Ashely is a multifaceted human, with her experience running through
-          multiple channels, spaces y industries. (Sales, Real estate,
-          Merchandising, Styling to name a few) And now- She has hijacked The
-          Heist Twitter- don’t forget to say Hi when you stop by!
-        </b-card-text>
-      </b-card>
     </b-card-group>
   </div>
 </template>
