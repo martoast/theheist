@@ -1,7 +1,7 @@
 <template>
    <div style="background-color: #000 !important">
       
-      <b-alert class="text-white" show style="background-color: #000; border: 0; position: absolute; z-index: 100; width: 100%; font-family: 'Market'; font-size: 18px;">Public Flash Sale is LIVE!!<a href="//mint.theheist.world/" target="_blank" class="alert-link pl-4" style="text-decoration: underline; color: red">Click Here</a>
+      <b-alert class="text-white" show style="background-color: #000; border: 0; position: absolute; z-index: 100; width: 100%; font-family: 'Market'; font-size: 18px;">Public Flash Sale is LIVE!!<a href="//mint.theheist.world/" target="_blank" class="alert-link pl-4" style="text-decoration: underline; color: red">Click Here </a>
          
       </b-alert>
       
